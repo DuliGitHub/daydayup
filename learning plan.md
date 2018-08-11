@@ -50,6 +50,8 @@ code : netty-server/echo-demo
  ---
  
 - 7.2 MessagePack 编码器和解码器开发
-  - 1
+  - 
+  - code ： messagepack/
+- 7.3 功能测试
 ##### 明日：线程池、各种加密算法 
    
