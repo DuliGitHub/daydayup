@@ -35,3 +35,14 @@ code : netty-server/echo-demo
     - Google 的 Protobuf
     - Facebook 的Thrift
     - JBoss Marshalling
+
+ ---
+#### 第七章：MessagePack编解码
+##### day03-8.11:
+---
+ - MessagePack是一个高效的**二进制**序列化框架，它像JSON一样支持不同语言间的数据交换，但是它的性能更快，序列化之后的码流也更小。
+ - 编码高效，性能高；
+ - 序列化之后的码流小；
+ - 支持跨语言；
+ 
+   
