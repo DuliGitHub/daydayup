@@ -36,6 +36,14 @@
             <version>5.0.0.Alpha1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.msgpack/msgpack -->
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack</artifactId>
+            <version>0.6.12</version>
+        </dependency>
+
+
         <!--<dependency>-->
             <!--<groupId>io.netty</groupId>-->
             <!--<artifactId>netty-transport</artifactId>-->
