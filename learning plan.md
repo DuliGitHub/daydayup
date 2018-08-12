@@ -48,10 +48,14 @@ code : netty-server/echo-demo
  ---
  code ： messagepack/MsgAPIDemo
  ---
- 
+ ##### day04-8.12:
 - 7.2 MessagePack 编码器和解码器开发
-  - 
   - code ： messagepack/
-- 7.3 功能测试
+- 7.3 功能测试、粘包、半包支持
+   - 遗留：ctx.write();和ctx.writeAndFlush()区别
+   
+---   
+    code : messagepack
+---
 ##### 明日：线程池、各种加密算法 
    
