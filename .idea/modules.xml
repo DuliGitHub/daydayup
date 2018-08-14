@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hystrix/ms-eureka-server/06-ms-eureka-server.iml" filepath="$PROJECT_DIR$/hystrix/ms-eureka-server/06-ms-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hystrix/ms-provider-user/06-ms-provider-user.iml" filepath="$PROJECT_DIR$/hystrix/ms-provider-user/06-ms-provider-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/config-client/config-client.iml" filepath="$PROJECT_DIR$/config/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/config-client-authenticating/config-client-authenticating.iml" filepath="$PROJECT_DIR$/config/config-client-authenticating/config-client-authenticating.iml" />
@@ -23,8 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/sleuth/consumer-order-trace/consumer-order-trace.iml" filepath="$PROJECT_DIR$/sleuth/consumer-order-trace/consumer-order-trace.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/consumer-order-trace-zipkin/consumer-order-trace-zipkin.iml" filepath="$PROJECT_DIR$/sleuth/consumer-order-trace-zipkin/consumer-order-trace-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cookie/cookie-demo1/cookie.iml" filepath="$PROJECT_DIR$/cookie/cookie-demo1/cookie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cookie/cookie-demo1/cookie-demo1.iml" filepath="$PROJECT_DIR$/cookie/cookie-demo1/cookie-demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hystrix2/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/hystrix2/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix2/eureka-server/eureka-server (1) (com.dl).iml" filepath="$PROJECT_DIR$/hystrix2/eureka-server/eureka-server (1) (com.dl).iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/eureka-server/eureka-server (2) (com.zuul).iml" filepath="$PROJECT_DIR$/zuul/eureka-server/eureka-server (2) (com.zuul).iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/eureka-server-ha/eureka-server-ha.iml" filepath="$PROJECT_DIR$/zuul/eureka-server-ha/eureka-server-ha.iml" />
@@ -51,10 +46,8 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix/ms-consumer-order-ribbon-hystrix-fusing/ms-consumer-order-ribbon-hystrix-fusing.iml" filepath="$PROJECT_DIR$/hystrix/ms-consumer-order-ribbon-hystrix-fusing/ms-consumer-order-ribbon-hystrix-fusing.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix/ms-consumer-order-ribbon-hystrix-thread-isolation/ms-consumer-order-ribbon-hystrix-thread-isolation.iml" filepath="$PROJECT_DIR$/hystrix/ms-consumer-order-ribbon-hystrix-thread-isolation/ms-consumer-order-ribbon-hystrix-thread-isolation.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-consumer-order-ribbon-without-eureka/ms-consumer-order-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/monster/ms-consumer-order-ribbon-without-eureka/ms-consumer-order-ribbon-without-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/monster/ms-eureka-server/ms-eureka-server.iml" filepath="$PROJECT_DIR$/monster/ms-eureka-server/ms-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix/ms-eureka-server/ms-eureka-server (1) (com.dl.cloud).iml" filepath="$PROJECT_DIR$/hystrix/ms-eureka-server/ms-eureka-server (1) (com.dl.cloud).iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-eureka-server/ms-eureka-server (2) (com.dl).iml" filepath="$PROJECT_DIR$/monster/ms-eureka-server/ms-eureka-server (2) (com.dl).iml" />
-      <module fileurl="file://$PROJECT_DIR$/monster/ms-provider-user/ms-provider-user.iml" filepath="$PROJECT_DIR$/monster/ms-provider-user/ms-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix/ms-provider-user/ms-provider-user (1) (com.dl.cloud).iml" filepath="$PROJECT_DIR$/hystrix/ms-provider-user/ms-provider-user (1) (com.dl.cloud).iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-provider-user/ms-provider-user (2) (com.dl).iml" filepath="$PROJECT_DIR$/monster/ms-provider-user/ms-provider-user (2) (com.dl).iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-provider-user-api/ms-provider-user-api.iml" filepath="$PROJECT_DIR$/monster/ms-provider-user-api/ms-provider-user-api.iml" />
@@ -62,7 +55,6 @@
       <module fileurl="file://$PROJECT_DIR$/netty/netty-server/netty_.iml" filepath="$PROJECT_DIR$/netty/netty-server/netty_.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-client/nettyclient.iml" filepath="$PROJECT_DIR$/netty/netty-client/nettyclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hystrix2/provider-user/provider-user.iml" filepath="$PROJECT_DIR$/hystrix2/provider-user/provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix2/provider-user/provider-user (1) (com.dl).iml" filepath="$PROJECT_DIR$/hystrix2/provider-user/provider-user (1) (com.dl).iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" filepath="$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/provider-user-trace/provider-user-trace.iml" filepath="$PROJECT_DIR$/sleuth/provider-user-trace/provider-user-trace.iml" />
@@ -81,8 +73,6 @@
       <module fileurl="file://$PROJECT_DIR$/netty/transmission/transmission.iml" filepath="$PROJECT_DIR$/netty/transmission/transmission.iml" />
       <module fileurl="file://$PROJECT_DIR$/validate-test/validate-test.iml" filepath="$PROJECT_DIR$/validate-test/validate-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul/eureka-server/zuul-eureka-server.iml" filepath="$PROJECT_DIR$/zuul/eureka-server/zuul-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul/provider-user/zuul-provider-user.iml" filepath="$PROJECT_DIR$/zuul/provider-user/zuul-provider-user.iml" />
     </modules>
   </component>
 </project>

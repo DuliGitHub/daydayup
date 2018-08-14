@@ -1,4 +1,4 @@
-package echo_demo.server;
+package messagepack;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
@@ -10,45 +10,28 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.FixedLengthFrameDecoder;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
+import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 import java.net.InetSocketAddress;
 
-/**
- * echo_demo.server.EchoServerHandler 实现了业务逻辑
- * main() 方法引导了服务器
- * 引导过程所需要的步奏如下：
- * 创建一个ServerBootstrap 的实例以引导和绑定服务器
- * 创建并分配一个NioEventLoopGroup 实例以进行事件的处理，如接受新连接以及读/写数据
- * 指定服务器绑定的本地InetSocketAddress；
- * 使用一个EchoServerHandler 的实例初始化每一个新的Channel;
- * 调用ServerBootstrap.bind() 方法以绑定服务器
- */
-public class EchoServer {
+public class EchoServer{
     private final int port;
-
-    public EchoServer(int port) {
+    private final int sendNumber;
+    public EchoServer(int port,int sendNumber) {
         this.port = port;
+        this.sendNumber = sendNumber;
     }
-
     public static void main (String[] args) throws Exception{
-//        if(args.length != 1){
-//            System.err.println(
-//                    "Usage: " + echo_demo.server.EchoServer.class.getSimpleName() + "<port>"
-//            );
-//            return;
-//        }
-//        int port = Integer.parseInt(args[0]);
         int port = Integer.parseInt("9999");
-        new EchoServer(port).start();
+        new EchoServer(port,100).run();
     }
 
-    public void start() throws Exception{
-        final EchoServerHandler serverHandler = new EchoServerHandler();
+    public void run() throws Exception{
 
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
@@ -63,11 +46,14 @@ public class EchoServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override//使用一个EchoServerHandler 的实例初始化每一个新的Channel;
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            ByteBuf delimiter = Unpooled.copiedBuffer("$_".getBytes());/** 以 "$_" 作为分隔符**/
-//                            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024,delimiter)); //DelimiterBasedFrameDecoder 分隔符
-                            socketChannel.pipeline().addLast(new FixedLengthFrameDecoder(20));//固定长度解码器
-                            socketChannel.pipeline().addLast(new StringDecoder());
-                            socketChannel.pipeline().addLast(serverHandler);
+                            socketChannel.pipeline().addLast("frameDecoder",new
+                                    LengthFieldBasedFrameDecoder(65535,0,
+                                    2,0,2));
+                            socketChannel.pipeline().addLast("msgpack decoder",new MsgpackDecoder());
+                            socketChannel.pipeline().addLast("frameEncoder",new
+                                    LengthFieldPrepender(2));
+                            socketChannel.pipeline().addLast("msgpack encoder",new MsgpackEncoder());
+                            socketChannel.pipeline().addLast(new EchoServerHandler());
                         }
                     });
             ChannelFuture future = bootstrap.bind().sync();//调用ServerBootstrap.bind() 方法以绑定服务器

@@ -4,16 +4,15 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandler;
+import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.CharsetUtil;
 
 @ChannelHandler.Sharable
 /**
  * 标示一个Channelhandler 可以被多个Channel 安全地共享
  */
 
-public class EchoServerHandler extends ChannelInboundHandlerAdapter {
+public class EchoServerHandler extends ChannelHandlerAdapter {
 
     int counter = 0;
 
@@ -22,12 +21,17 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
      */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-//        -----------------------------------权威指南例子-------------------------------------------
-        String body = (String) msg;
-        System.out.println("This is " + ++counter + " times receive client : [" + body + "]");
-        body += "$_";
-        ByteBuf echo = Unpooled.copiedBuffer(body.getBytes());
-        ctx.writeAndFlush(echo);
+//               -----------------------------------以下为 FixedLengthFrameDecoder 固定长度分隔符 -------------------------------------------
+        System.out.println("Receive client : [" + msg + "]");//利用telnet命令测试
+
+
+
+//        -----------------------------------以下为 DelimiterBasedFrameDecoder -------------------------------------------
+//        String body = (String) msg;
+//        System.out.println("This is " + ++counter + " times receive client : [" + body + "]");
+//        body += "$_";
+//        ByteBuf echo = Unpooled.copiedBuffer(body.getBytes());
+//        ctx.writeAndFlush(echo);
 
 
 
