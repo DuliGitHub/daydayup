@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change afterPath="$PROJECT_DIR$/netty/netty-server/src/main/java/netty_http/HttpFileServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
-    </list>
+    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-eureka/target/" />
@@ -638,8 +634,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1642" />
+    <option name="y" value="102" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -1154,7 +1150,7 @@
       <workItem from="1533995225940" duration="3944000" />
       <workItem from="1534087495988" duration="4830000" />
       <workItem from="1534173118121" duration="2598000" />
-      <workItem from="1534259518971" duration="4221000" />
+      <workItem from="1534259518971" duration="4812000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1199,7 +1195,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118524000" />
+    <option name="totallyTimeSpent" value="119115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

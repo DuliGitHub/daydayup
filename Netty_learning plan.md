@@ -92,6 +92,7 @@ code : netty-server/echo-demo
  - HTTP(超文本传输协议) 协议是建立在TCP传输协议之上的应用层协议。
  - 由于Netty的Http协议栈是基于Netty的NIO通信框架开发的，因此，Netty的HTTP协议也是异步非阻塞的
  - HTTP 协议的主要特点：
+    - 
     - 支持Client/Server模式
     - 简单--客户像服务器请求服务时，只需指定服务URL，携带必要的请求参数或者消息体；
     - 灵活 -- HTTP 允许传输任意类型的 **数据对象**，传输的内容类型由HTTP 消息头中的**Content-Type** 加以标记；
@@ -99,6 +100,7 @@ code : netty-server/echo-demo
  - Netty HTTP 服务器端入门开发
     - Netty--异步事件驱动的架构
  - 10.2 Netty HTTP 服务端入门开发
+ 
  
   
    
