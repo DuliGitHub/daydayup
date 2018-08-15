@@ -86,8 +86,11 @@ code : netty-server/echo-demo
      - Javassist是一个开源的分析、编辑和创建**Java字节码**的类库。是由东京工业大学的数学和计算机科学系的 Shigeru Chiba （千叶 滋）所创建的。
      它已加入了开放源代码JBoss 应用服务器项目，通过使用Javassist对字节码操作为JBoss实现动态"AOP"框架。
   - **8.1 Protobuf 入门**
-#### 第十章：HTTP协议开发应用
+#### 第十章：HTTP协议开发应用(了解)
+
 ##### day06-8.14:
+
+---
 - **10.1**
  - HTTP(超文本传输协议) 协议是建立在TCP传输协议之上的应用层协议。
  - 由于Netty的Http协议栈是基于Netty的NIO通信框架开发的，因此，Netty的HTTP协议也是异步非阻塞的
@@ -100,6 +103,14 @@ code : netty-server/echo-demo
  - Netty HTTP 服务器端入门开发
     - Netty--异步事件驱动的架构
  - 10.2 Netty HTTP 服务端入门开发
+  ---
+ #### 第十一章：WebSocket
+ ##### day07-8.15:
+  - WebSocket 连接本质上就是一个TCP连接。
+  - 相比HTTP，它的网络利用率更高，可以通过全双工的方式进行消息发送和接收。
+  - code：web_socket
+  ---
+  #### 第十二章：私有协议介绍
  
  
   

@@ -43,10 +43,13 @@ public class HttpFileServer {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast("http-decoder",new HttpRequestDecoder());
+                            //解码器，将多个消息转换为单一的FullHttpRequest或者FullHttpResponse
                             ch.pipeline().addLast("http-aggregator",new HttpObjectAggregator(65536));
+                            //HTTP编码器，对HTTP响应消息进行编码
                             ch.pipeline().addLast("http-encoder",new HttpResponseEncoder());
+                            // 支持异步发送大的码流，但不占用过多的内存，防止发生java内存溢出错误
                             ch.pipeline().addLast("http-chunked",new ChunkedWriteHandler());
-                            ch.pipeline().addLast("fileServerHandler",new HttpFileServerHandler(url));
+//                            ch.pipeline().addLast("fileServerHandler",new HttpFileServerHandler(url));
                         }
                     });
             ChannelFuture future = b.bind("localhost",port).sync();
