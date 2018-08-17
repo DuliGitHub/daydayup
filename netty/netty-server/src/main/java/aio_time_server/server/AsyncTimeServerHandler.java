@@ -31,7 +31,8 @@ public class AsyncTimeServerHandler implements Runnable {
 
     @Override
     public void run() {
-        latch = new CountDownLatch(1);//作用：在完成一组正在执行的操作之前，允许当前的线程一直阻塞，本例，让线程阻塞，防止服务端执行完成退出，实际项目不需要
+        latch = new CountDownLatch(1);//作用：在完成一组正在执行的操作之前，允许当前的线程一直阻塞，本例，
+        // 让线程阻塞，防止服务端执行完成退出，实际项目不需要
         doAccept();
         try {
             latch.await();

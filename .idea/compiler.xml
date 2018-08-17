@@ -123,7 +123,6 @@
       <module name="hystrix-turbine" target="1.8" />
       <module name="hystrix2" target="1.8" />
       <module name="java8" target="1.5" />
-      <module name="many" target="1.5" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
       <module name="ms-consumer-order-feign" target="1.8" />
@@ -154,6 +153,7 @@
       <module name="rabbitmq" target="1.8" />
       <module name="redis-cache" target="1.8" />
       <module name="redis-mybatis" target="1.8" />
+      <module name="saga" target="1.5" />
       <module name="sleuth" target="1.8" />
       <module name="spring-boot-admin" target="1.5" />
       <module name="swagger1" target="1.8" />

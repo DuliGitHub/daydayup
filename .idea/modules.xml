@@ -35,7 +35,6 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix2/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix2/hystrix-turbine/hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix2/hystrix2.iml" filepath="$PROJECT_DIR$/hystrix2/hystrix2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/many/many.iml" filepath="$PROJECT_DIR$/many/many.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/monster.iml" filepath="$PROJECT_DIR$/monster/monster.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" filepath="$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" filepath="$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" />
@@ -63,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/monster/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/monster/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/redis-cache/redis-cache.iml" filepath="$PROJECT_DIR$/cache/redis-cache/redis-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-mybatis/redis-mybatis.iml" filepath="$PROJECT_DIR$/redis-mybatis/redis-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many/saga.iml" filepath="$PROJECT_DIR$/many/saga.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/sleuth.iml" filepath="$PROJECT_DIR$/sleuth/sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/zuul/spring-boot-admin/spring-boot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger1/swagger1.iml" filepath="$PROJECT_DIR$/swagger1/swagger1.iml" />
