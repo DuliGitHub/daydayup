@@ -186,6 +186,13 @@ code : netty-server/echo-demo
      - Netty 协议栈架构需要具备一定的扩展能力，例如统一的消息拦截，接口日志，安全、加解密等，类似Servlet 的Filter Chain 和AOP，但考虑到性能因素，不推荐
      通过AOP来实现功能的扩展
      
+##### day10-8.21:
+##### Netty 协议栈开发
+ - 12.3.1 数据结构定义
+ - code :netty/netty_private_protocol 
+
+    
+     
     
       
       

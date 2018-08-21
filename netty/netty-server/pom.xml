@@ -12,6 +12,7 @@
     <artifactId>netty-server</artifactId>
     <packaging>jar</packaging>
     <name>netty-server</name>
+
     <build>
         <plugins>
             <plugin>
