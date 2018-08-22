@@ -190,7 +190,20 @@ code : netty-server/echo-demo
 ##### Netty 协议栈开发
  - 12.3.1 数据结构定义
  - code :netty/netty_private_protocol 
-
+ 
+ ##### day11-8.22:
+ ##### 第十五章：ByteBuf 和相关辅助类（12-14章跳过）
+  - 15.1 ByteBuf 功能说明
+  - 7 种基础类型（Boolean除外） 都有自己的缓冲区实现。
+  - ByteBuffer 局限性
+   - ByteBuffer 长度固定，一旦分配完成，容量不能动态扩展和收缩，当需要编码的POJO对象大于ByteBuffer 的容量时，会发生索引越界异常
+   - ByteBuffer 只有一个标示位置的指针 position ，读写的时候需要手工调用flip()和rewind()等，使用者必须小心谨慎地处理这些api
+   - ByteBuffer 的API功能有限，一些高级和实用的特性不支持，需要使用者自己编程实现
+   - 为了弥补这些不足，Netty 提供了自己的ByteBuffer 实现-ByteBuf
+  - ByteBuf 两个指针，readerIndex 和 writerIndex;分别控制写操作和都操作，读操作的下标不会超过写操纵的下标，还可以把读取的部分清空
+  - ByteBuffer 为了避免可写空间不够，每次put操作都会对空间进行校验，空间不足会创建一个新的ByteBuffer ，并将之前的ByteBuffer 复制到新的ByteBuffer中 最后释放老的ByteBuffer
+  - ByteBuf 对write 操作进行了封装，由ByteBuf的write操作负责进行剩余可用空间的检验。会自动扩展，但是不要操作设置的最大缓冲区容量。
+ - ByteBuf 的功能介绍
     
      
     
