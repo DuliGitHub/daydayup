@@ -203,7 +203,37 @@ code : netty-server/echo-demo
   - ByteBuf 两个指针，readerIndex 和 writerIndex;分别控制写操作和都操作，读操作的下标不会超过写操纵的下标，还可以把读取的部分清空
   - ByteBuffer 为了避免可写空间不够，每次put操作都会对空间进行校验，空间不足会创建一个新的ByteBuffer ，并将之前的ByteBuffer 复制到新的ByteBuffer中 最后释放老的ByteBuffer
   - ByteBuf 对write 操作进行了封装，由ByteBuf的write操作负责进行剩余可用空间的检验。会自动扩展，但是不要操作设置的最大缓冲区容量。
- - ByteBuf 的功能介绍
+
+ 
+  ##### day12-8.23:
+   - ByteBuf 的功能介绍
+   - discardReadBytes 清空已经读取的区域，节约内存----调用discardReadBytes 会发生字节数组的内存复制，频繁使用会导致性能下降
+   - Mark JDK 的ByteBuffer，调用mark 操作会将当前位置指针备份到mark 变量中，当调用rest操作之后，从新将指针的当前位置恢复为备份在mark中的值（回滚）
+   
+   ``` 
+   public final Buffer mark(){
+         mark = position;
+         return this;
+         
+         
+    public final Buffer reset(){
+        int m = mark;
+        if(m < 0){
+        throw new InvalidarkException(); 
+        }
+        position = m;
+        return this;
+    }
+          
+  ```
+---
+   - Netty 的ByteBuf 中类似rest 和mark 的接口
+      - markReaderIndex ： 将当前的readerIndex备份到 markedReaderIndex中；
+      - resetReaderIndex : 将当前的readerIndex 设置为 markedReaderIndex；
+      - markWriterIndex 、resetWriterIndex 类似
+   - 查找操作
+    - indexOf(int fromIndex,int toIndex,byte value);从当前ByteBuf中定位出首次出现value 的位置。没有找到返回-1
+    - 还有还有很多api
     
      
     
