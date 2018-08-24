@@ -235,6 +235,17 @@ code : netty-server/echo-demo
     - indexOf(int fromIndex,int toIndex,byte value);从当前ByteBuf中定位出首次出现value 的位置。没有找到返回-1
     - 还有还有很多api
     
+##### day13-8.24:
+ - ByteBuf 源码分析
+ - 从内存分配的角度看，ByteBuf可以分为两类
+    - 堆内存(HeapByteBuf)字节缓冲区：特点是**内存的分配和回收速度快**，可以被JVM自动回收；缺点是，如果进行Socket的I/O读写，
+    需要**额外做一次内存复制**，将堆内存对应的缓冲区复制到内核Channel中，性能会有一定程度的下降
+    - 直接内存(DirectByteBuf)字节缓冲区：非堆内存，它在堆外进行内存分配，相比于堆内存，**分配和回收速度慢一些**，但是
+    将它写入或者从SocketChannel中读取时，由于**少一次内存复制，速度比堆内存快**   
+    - 经验表明，ByteBuf的最佳实践是在I/O通信线程的读写缓冲区使用DirectByteBuf，后端业务消息的编解码模块使用HeapByteBuf
+ 
+ 
+ ##### 第十六章：Channel 和 Unsafe
      
     
       
