@@ -246,6 +246,10 @@ code : netty-server/echo-demo
  
  
  ##### 第十六章：Channel 和 Unsafe
+ ##### day14-8.25:
+ - Unsafe 是个内部接口，**聚合**在Channel 中**协助**进行网络读写相关的操作，因为设计初衷是Chanel 的内部辅助类，
+ 不应该被Netty框架的上层使用者使用，所以被命名为Unsafe。不能仅从字面理解认为它是不安全的操作。
+ 
      
     
       
