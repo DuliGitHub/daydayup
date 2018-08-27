@@ -250,6 +250,41 @@ code : netty-server/echo-demo
  - Unsafe 是个内部接口，**聚合**在Channel 中**协助**进行网络读写相关的操作，因为设计初衷是Chanel 的内部辅助类，
  不应该被Netty框架的上层使用者使用，所以被命名为Unsafe。不能仅从字面理解认为它是不安全的操作。
  
+ ---
+ 
+  ##### 第十七章：ChannelPipeline 和 ChannelHandler
+  ##### day15-8.27:
+  
+ - Netty 的ChannelPipeline 和ChannelHandler 机制类似于Servlet 和 Filter 过滤器，这类拦截器实际上是职责链模式的一种变形，主要是
+ 为了方便事件的拦截和用户业务逻辑的定制
+ - Netty 的Channel 过滤器实现原理与Servlet Filter 机制一致，它将Channel 的数据管道抽象为ChannelPipeline，消息在ChannelPipeline
+ 中流动和传递。ChannelPipeline持有I/O事件拦截器 ChannelHandler 的链表，由ChannelHandler 对I/O事件进行拦截和处理，可以方便地通过新增和删除ChannelHandler
+ 来实现不同的业务逻辑定制，不需要对已有的 ChannelHandler 进行修改，能够实现对修改封闭和对扩展的支持。 
+ - ChannelPipeline 是 ChannelHandler 的容器，它负责ChannelHandler 的管理和事件拦截与调度
+ - Netty 中的事件分为 inbound 事件 和outbound 事件。
+    - inbound 事件通常由I/O线程触发，例如TCP 链路建立事件、链路关闭事件、读事件、异常通知事件等。
+    - outbound事件通常是由用户主动发起的网络I/O操作，例如用户发起的连接操作、绑定操作、消息发送等操作。
+    
+- 17.1.2 自定义拦截器
+- ChannelPipeline 通过ChannelHandler 接口来实现事件的拦截和处理，由于ChannelHandler 中的事件种类繁多，**不同的ChannelHandler 可能只需要关心其中的某一个或
+几个事件**，所以，通常ChannelHandler 只需要继承ChannelHandlerAdapter 类覆盖自己关心的方法即可。
+-17.1.3 构建 Pipeline
+   - 用户不需要自己构建Pipeline，Netty 会为每个Channel 连接创建一个独立的Pipeline，只需要将自定义的拦截器加入到Pipeline 中即可
+   ```
+   pipeline = ch.pipeline();
+   pipeline.addLast("decoder",new MyProtocolDecoder());
+   pipeline.addLast("encoder",new MyProtocolEecoder());
+
+   ```
+- 17.1.4 ChannelPipeline 的主要特性
+   - ChannelPipeline 支持运行态动态的添加或者删除ChannelHandler。
+   - ChannelPipeline 是线程安全的，意味着N个业务线程可以并发地操作ChannelPipeline 而不存在多线程并发问题。但是ChannelHandler 不是线程安全的
+   意味着用户需要自己保证ChannelHandler 的线程安全。
+ 
+ 
+ 
+ 
+ 
      
     
       
