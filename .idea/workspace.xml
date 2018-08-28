@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -130,8 +129,8 @@
         <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="572">
-                <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
+              <first_editor relative-caret-position="746">
+                <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -1184,7 +1183,7 @@
       <workItem from="1535123315197" duration="2620000" />
       <workItem from="1535208596348" duration="1720000" />
       <workItem from="1535378323323" duration="4976000" />
-      <workItem from="1535469643828" duration="624000" />
+      <workItem from="1535469643828" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1229,7 +1228,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155568000" />
+    <option name="totallyTimeSpent" value="156939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-2" width="1936" height="1056" extended-state="0" />
@@ -1654,8 +1653,8 @@
     <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="572">
-            <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
+          <first_editor relative-caret-position="746">
+            <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
