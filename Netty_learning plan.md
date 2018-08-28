@@ -268,7 +268,8 @@ code : netty-server/echo-demo
 - 17.1.2 自定义拦截器
 - ChannelPipeline 通过ChannelHandler 接口来实现事件的拦截和处理，由于ChannelHandler 中的事件种类繁多，**不同的ChannelHandler 可能只需要关心其中的某一个或
 几个事件**，所以，通常ChannelHandler 只需要继承ChannelHandlerAdapter 类覆盖自己关心的方法即可。
--17.1.3 构建 Pipeline
+
+- 17.1.3 构建 Pipeline
    - 用户不需要自己构建Pipeline，Netty 会为每个Channel 连接创建一个独立的Pipeline，只需要将自定义的拦截器加入到Pipeline 中即可
    ```
    pipeline = ch.pipeline();
@@ -280,6 +281,9 @@ code : netty-server/echo-demo
    - ChannelPipeline 支持运行态动态的添加或者删除ChannelHandler。
    - ChannelPipeline 是线程安全的，意味着N个业务线程可以并发地操作ChannelPipeline 而不存在多线程并发问题。但是ChannelHandler 不是线程安全的
    意味着用户需要自己保证ChannelHandler 的线程安全。
+   
+  ##### 第十八章：EventLoop 和 EventLoopGroup
+  ##### day16-8.28:
  
  
  
