@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -128,9 +129,9 @@
       <file leaf-file-name="Netty_learning plan.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="746">
-                <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="621">
+                <caret line="323" column="1" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -659,7 +660,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -707,6 +707,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1183,7 +1184,8 @@
       <workItem from="1535123315197" duration="2620000" />
       <workItem from="1535208596348" duration="1720000" />
       <workItem from="1535378323323" duration="4976000" />
-      <workItem from="1535469643828" duration="1995000" />
+      <workItem from="1535469643828" duration="2168000" />
+      <workItem from="1535642703631" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1228,7 +1230,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156939000" />
+    <option name="totallyTimeSpent" value="158850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-2" width="1936" height="1056" extended-state="0" />
@@ -1254,7 +1256,7 @@
       <window_info anchor="right" id="Run" order="11" weight="0.37793177" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.56774914" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2228145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="10" weight="0.15671642" />
@@ -1652,9 +1654,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="746">
-            <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="621">
+            <caret line="323" column="1" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

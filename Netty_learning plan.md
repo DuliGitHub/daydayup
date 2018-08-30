@@ -293,11 +293,35 @@ code : netty-server/echo-demo
        ，成为系统的性能瓶颈。
        - 可靠性问题，一旦NIO线程意外跑飞，或者进入死循环，会导致整个系统通信模块不可用，不能接收和处理外部消息，造成节点故障。
    
- - Reactor 多线程模型
+ - 18.1.2 Reactor 多线程模型
   - Reactor 多线程模型的特点如下
      - 有一个专门NIO线程—Acceptor线程用于监听服务端，接收客户端的TCP连接请求。
      - 网络I/O操作——读写等由一个NIO线程池负责，它包含一个任务队列和N个可用的线程，由这些NIO线程负责消息的读取、解码、编码和发送
      - 一个NIO线程可以同时处理N条链路，但是一个链路只对应一个NIO线程，防止发生并发操作问题。
+    
+ 
+   ##### day17-8.30:
+  - 18.1.3 主从Reactor 多线程模型
+     - 主从Reactor 线程模型的特点是：服务端用于接收客户端连接的不再是一个单独的NIO线程，而是一个独立的NIO线程池。
+  - **18.1.4 Netty 的线程模型**
+  - Netty 的线程模型并不是一成不变，它实际取决于用户的启动参数配置。通过设置不同的启动参数，Netty 可以同时支持Reactor 单线程模型、多线程模型和主从Reactor 多线程模型。
+  - 服务端启动的时候，创建了两个NioEventLoopGroup,它是两个独立的Reactor线程池。
+  一个用于接收客户端的TCP连接，另一个用于处理I/O相关的读写操作，或者执行系统Task、定时任务Task等。
+  ```
+EventLoopGroup bossGroup = new NioEventLoopGroup();
+EventLoopGroup workerGroup = new NioEventLoopGroup();
+```
+ - **Netty 用于接收客户端请求的线程池职责如下**
+    - 1、接收客户端TCP连接，初始化Channel参数
+    - 2、将链路状态变更事件通知给ChannelPipeline
+ - **Netty 处理I/O操作的Reactor线程池职责如下**
+    - 异步读取通信对端数据报，发送读事件到ChannelPipeline
+    - 异步发送消息到通信对端，调用ChannelPipeline的消息发送接口
+    - 执行系统调用Task
+    - 执行定时任务Task，例如链路空闲状态监测定时任务
+ - **通过调整线程池的线程个数、是否共享线程池等方式**，Netty的Reactor线程模型可以在单线程、多线程和主线程间切换。
+ - 为了尽可能提升性能，Netty在很多地方进行了无锁化的设计。例如在I/O线程内部进行串行操作，避免多线程竞争导致的性能下降问题。
+ 
  
  
  
