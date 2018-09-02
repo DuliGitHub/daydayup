@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Netty_learning plan.md" line="218" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
-    </list>
+    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-eureka/target/" />
@@ -1186,7 +1183,7 @@
       <workItem from="1535378323323" duration="4976000" />
       <workItem from="1535469643828" duration="2168000" />
       <workItem from="1535642703631" duration="1961000" />
-      <workItem from="1535815911952" duration="473000" />
+      <workItem from="1535815911952" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1231,7 +1228,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159546000" />
+    <option name="totallyTimeSpent" value="160140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-2" width="1936" height="1056" extended-state="0" />

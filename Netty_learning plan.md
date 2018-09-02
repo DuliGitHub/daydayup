@@ -323,6 +323,7 @@ EventLoopGroup workerGroup = new NioEventLoopGroup();
  - 为了尽可能提升性能，Netty在很多地方进行了无锁化的设计。例如在I/O线程内部进行串行操作，避免多线程竞争导致的性能下降问题。
  ##### day18-9.1:
  - 打卡
+ - t
  
  
  
