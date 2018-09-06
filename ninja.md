@@ -21,3 +21,11 @@
    - java 实现
    - 生态圈完善
    - 并没有严格遵循jms规范
+   - Name Server:注册中心 频繁更新offset
+   - Producer 消息生产者 生产消息 寄件人
+   - Consumer 消息消费者、复制消息消费 收件人
+   - Broker 中介 提供消息中转服务
+   - Group 分组好处 专人专事
+   - Tag 多个标签 where
+   - key 区分业务系统  a-hello  b-world  key -a、b
+   -Msgid 主键broker在这个系统中它是独一无二的
