@@ -29,3 +29,6 @@
    - Tag 多个标签 where
    - key 区分业务系统  a-hello  b-world  key -a、b
    -Msgid 主键broker在这个系统中它是独一无二的
+   
+ - $ mvn -Prelease-all -DskipTests clean install -U
+ 

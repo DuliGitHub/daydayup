@@ -142,8 +142,8 @@
         <entry file="file://$PROJECT_DIR$/ninja.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="787">
-                <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <first_editor relative-caret-position="746">
+                <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -682,6 +682,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -729,8 +731,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -744,7 +744,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/rocketmq-master/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1213,7 +1213,8 @@
       <workItem from="1535903260251" duration="612000" />
       <workItem from="1536067957842" duration="3540000" />
       <workItem from="1536154863985" duration="2917000" />
-      <workItem from="1536247161211" duration="1037000" />
+      <workItem from="1536247161211" duration="1616000" />
+      <workItem from="1536419456196" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1258,11 +1259,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168246000" />
+    <option name="totallyTimeSpent" value="170354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
@@ -1284,7 +1284,7 @@
       <window_info anchor="right" id="Run" order="11" weight="0.37793177" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.56774914" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23720682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23987207" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="10" weight="0.15671642" />
@@ -1687,8 +1687,8 @@
     <entry file="file://$PROJECT_DIR$/ninja.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="787">
-            <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <first_editor relative-caret-position="746">
+            <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
