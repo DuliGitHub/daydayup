@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.md" beforeDir="false" afterPath="$PROJECT_DIR$/key.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
@@ -146,8 +144,8 @@
         <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="341">
-                <caret line="325" column="20" selection-start-line="325" selection-start-column="20" selection-end-line="325" selection-end-column="20" />
+              <first_editor relative-caret-position="368">
+                <caret line="326" column="13" selection-start-line="326" selection-start-column="13" selection-end-line="326" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -1274,7 +1272,7 @@
       <workItem from="1536759171766" duration="1454000" />
       <workItem from="1536765105859" duration="141000" />
       <workItem from="1536844084619" duration="4763000" />
-      <workItem from="1536850194512" duration="291000" />
+      <workItem from="1536850194512" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1319,7 +1317,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182104000" />
+    <option name="totallyTimeSpent" value="182349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1733,8 +1731,8 @@
     <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="341">
-            <caret line="325" column="20" selection-start-line="325" selection-start-column="20" selection-end-line="325" selection-end-column="20" />
+          <first_editor relative-caret-position="368">
+            <caret line="326" column="13" selection-start-line="326" selection-start-column="13" selection-end-line="326" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
