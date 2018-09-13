@@ -68,6 +68,7 @@
         <option value="$PROJECT_DIR$/cache/pom.xml" />
         <option value="$PROJECT_DIR$/cache/redis-cache/pom.xml" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/many/juc01/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

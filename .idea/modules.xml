@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix2/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix2/hystrix-turbine/hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix2/hystrix2.iml" filepath="$PROJECT_DIR$/hystrix2/hystrix2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many/juc01/juc-01.iml" filepath="$PROJECT_DIR$/many/juc01/juc-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/monster.iml" filepath="$PROJECT_DIR$/monster/monster.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" filepath="$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" filepath="$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" />

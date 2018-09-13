@@ -1,0 +1,23 @@
+
+
+java.util.concurrent.Executors.newCachedThreadPool()>
+>java.util.concurrent.ThreadPoolExecutor.ThreadPoolExecutor(int, int, long, java.util.concurrent.TimeUnit, java.util.concurrent.BlockingQueue<java.lang.Runnable>, java.util.concurrent.ThreadFactory, java.util.concurrent.RejectedExecutionHandler)
+
+
+submit方法：
+java.util.concurrent.ThreadPoolExecutor.execute
+4种：
+1、小于核心
+   addworker
+2、大于核心
+  java.util.concurrent.BlockingQueue.offer(E)
+3、直接增加task
+   addworker
+4、如果3增加失败了就拒绝
+  java.util.concurrent.ThreadPoolExecutor.reject
+
+  java.util.concurrent.ThreadPoolExecutor.addWorker
+
+   >java.util.concurrent.ThreadPoolExecutor.Worker.run
+     java.util.concurrent.ThreadPoolExecutor.runWorker
+    >java.util.concurrent.ThreadPoolExecutor.getTask 从队列里面获取

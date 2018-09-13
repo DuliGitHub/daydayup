@@ -42,6 +42,7 @@
         <module name="hystrix-turbine" />
         <module name="hystrix2" />
         <module name="java8" />
+        <module name="juc-01" />
         <module name="monster" />
         <module name="ms-cinsumer-order-ribbon" />
         <module name="ms-consumer-order-feign" />
@@ -84,9 +85,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="06-ms-eureka-server" target="1.8" />
-      <module name="06-ms-provider-user" target="1.8" />
-      <module name="cache" target="1.8" />
       <module name="config" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-client-authenticating" target="1.8" />
@@ -105,10 +103,6 @@
       <module name="consumer-order-trace" target="1.8" />
       <module name="consumer-order-trace-zipkin" target="1.8" />
       <module name="cookie" target="1.8" />
-      <module name="cookie-demo" target="1.8" />
-      <module name="cookie-demo1" target="1.8" />
-      <module name="demo-cookie" target="1.8" />
-      <module name="eureka-server" target="1.8" />
       <module name="eureka-server (1) (com.dl)" target="1.8" />
       <module name="eureka-server (2) (com.zuul)" target="1.8" />
       <module name="eureka-server-ha" target="1.8" />
@@ -122,7 +116,8 @@
       <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrix-turbine" target="1.8" />
       <module name="hystrix2" target="1.8" />
-      <module name="java8" target="1.5" />
+      <module name="java8" target="1.8" />
+      <module name="juc-01" target="1.8" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
       <module name="ms-consumer-order-feign" target="1.8" />
@@ -133,18 +128,15 @@
       <module name="ms-consumer-order-ribbon-hystrix-fusing" target="1.8" />
       <module name="ms-consumer-order-ribbon-hystrix-thread-isolation" target="1.8" />
       <module name="ms-consumer-order-ribbon-without-eureka" target="1.8" />
-      <module name="ms-eureka-server" target="1.8" />
       <module name="ms-eureka-server (1) (com.dl.cloud)" target="1.8" />
       <module name="ms-eureka-server (2) (com.dl)" target="1.8" />
-      <module name="ms-provider-user" target="1.8" />
       <module name="ms-provider-user (1) (com.dl.cloud)" target="1.8" />
       <module name="ms-provider-user (2) (com.dl)" target="1.8" />
       <module name="ms-provider-user-api" target="1.8" />
-      <module name="netty" target="1.5" />
+      <module name="netty" target="1.8" />
       <module name="netty_" target="1.8" />
       <module name="nettyclient" target="1.8" />
       <module name="nio" target="1.5" />
-      <module name="provider-user" target="1.8" />
       <module name="provider-user (1) (com.dl)" target="1.8" />
       <module name="provider-user (2) (com.zuul)" target="1.8" />
       <module name="provider-user-trace" target="1.8" />
@@ -163,8 +155,6 @@
       <module name="transmission" target="1.8" />
       <module name="validate-test" target="1.8" />
       <module name="zuul" target="1.8" />
-      <module name="zuul-eureka-server" target="1.8" />
-      <module name="zuul-provider-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
