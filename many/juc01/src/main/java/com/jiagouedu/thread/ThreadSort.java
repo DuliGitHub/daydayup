@@ -1,17 +1,9 @@
-package com.jiagouedu.thread;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.thread;
 
+/**
+ * 线程执行顺序
+ * join ： 线程执行顺序
+ */
 public class ThreadSort {
 
   public static void main(String[] args) throws InterruptedException {
@@ -28,11 +20,13 @@ public class ThreadSort {
 
     });
     thread1.start();
-    thread1.join();
+    Thread.sleep(1000);
+//    thread1.join();//阻塞主线程
     thread2.start();
-    thread2.join();
+    Thread.sleep(1000);
+//    thread2.join();
     thread3.start();
-    thread3.join();
+//    thread3.join();
 
 
   }

@@ -1,20 +1,5 @@
-package com.jiagouedu.threadpool;/*
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- * 图灵学院-悟空老师
- * 以往视频加小乔老师QQ：895900009
- * 悟空老师QQ：245553999
+package com.jiagouedu.threadpool;
+/**
  * 线程池测试
  */
 
@@ -29,20 +14,20 @@ public class ThreadPoolPkTest {
 
     public static void main(String[] args) throws InterruptedException {
         Long start= System.currentTimeMillis();
-        final List<Integer> list=new ArrayList<Integer>();
+        final List<Integer> list=new ArrayList<>();
         ExecutorService executorService= Executors.newSingleThreadExecutor();
         final Random random=new Random();
         for(int i=0;i<10000;i++){
-            final int j=i;
+
             executorService.execute(new Runnable() {
                 @Override
                 public void run() {
-                    list.add(j);
+                    list.add(random.nextInt());
                 }
             });
         }
         executorService.shutdown();
-        executorService.awaitTermination(1, TimeUnit.DAYS);
+        executorService.awaitTermination(1, TimeUnit.DAYS);//相当于join
         System.out.println(System.currentTimeMillis()-start);
         System.out.println(list.size());
 

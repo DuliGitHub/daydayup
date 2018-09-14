@@ -15,7 +15,6 @@ package com.jiagouedu.thread;/*
 public class Runable01 implements   Runnable{
 
   public static void main(String[] args) {
-    Runable01 thread01 = new Runable01();
    new Thread(new Runable01()).start();
   }
 

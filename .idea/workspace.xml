@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change beforePath="$PROJECT_DIR$/Netty_learning plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netty_learning plan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many/juc01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Runable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Runable01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolPkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolPkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/Callable01.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/Callable01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/Runable01.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/Runable01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$Blocked.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$Blocked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$TimeWaiting.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$TimeWaiting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$Waiting.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState$Waiting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc01/target/classes/com/jiagouedu/thread/ThreadState.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
@@ -134,20 +150,267 @@
       <file leaf-file-name="ThreadSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="167">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Netty_learning plan.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Netty_learning plan.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="368">
-                <caret line="326" column="13" selection-start-line="326" selection-start-column="13" selection-end-line="326" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="171" column="27" lean-forward="true" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="1295" column="16" selection-start-line="1295" selection-start-column="16" selection-end-line="1295" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.util.concurrent.ThreadPoolExecutor" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.concurrent.ThreadPoolExecutor">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.concurrent.ThreadPoolExecutor</OriginalElement>
+              <nodes>
+                <node x="0.0" y="160.0">java.util.concurrent.AbstractExecutorService</node>
+                <node x="44.5" y="0.0">java.util.concurrent.Executor</node>
+                <node x="11.0" y="240.0">java.util.concurrent.ThreadPoolExecutor</node>
+                <node x="21.0" y="82.0">java.util.concurrent.ExecutorService</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.ThreadPoolExecutor" target="java.util.concurrent.AbstractExecutorService">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-388.5" y="62.0" />
+              <SelectedNodes>
+                <node>java.util.concurrent.Executor</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.util.concurrent.Executor" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/java.util.concurrent.Executor">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.concurrent.Executor</OriginalElement>
+              <nodes>
+                <node x="1951.5" y="144.5">org.springframework.core.task.support.ConcurrentExecutorAdapter</node>
+                <node x="223.5" y="144.5">org.springframework.core.task.AsyncTaskExecutor</node>
+                <node x="967.5" y="144.5">sun.net.httpserver.ServerImpl.DefaultExecutor</node>
+                <node x="401.5" y="144.5">org.springframework.integration.util.CompositeExecutor</node>
+                <node x="2180.5" y="144.5">io.netty.util.concurrent.DefaultEventExecutorGroup</node>
+                <node x="582.5" y="110.0">io.reactivex.netty.contexts.ContextAwareEventLoopGroup</node>
+                <node x="0.0" y="488.0">org.springframework.scheduling.concurrent.ConcurrentTaskScheduler</node>
+                <node x="43.5" y="637.0">org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler</node>
+                <node x="1781.5" y="144.5">io.netty.channel.DefaultEventLoop</node>
+                <node x="1171.0" y="0.0">java.util.concurrent.Executor</node>
+                <node x="1126.5" y="144.5">io.netty.channel.DefaultEventLoopGroup</node>
+                <node x="1591.5" y="144.5">io.netty.util.concurrent.DefaultEventExecutor</node>
+                <node x="336.0" y="465.0">org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor</node>
+                <node x="828.5" y="144.5">sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+                <node x="135.25" y="259.0">org.springframework.core.task.AsyncListenableTaskExecutor</node>
+                <node x="1333.5" y="121.5">sun.nio.ch.AsynchronousChannelGroupImpl</node>
+                <node x="190.0" y="339.0">org.springframework.scheduling.concurrent.ConcurrentTaskExecutor</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.netty.util.concurrent.DefaultEventExecutorGroup" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="2284.0" y="50.0" />
+                  <point x="1264.5454545454545" y="50.0" />
+                  <point x="44.545454545454504" y="15.0" />
+                </edge>
+                <edge source="org.springframework.core.task.AsyncListenableTaskExecutor" target="org.springframework.core.task.AsyncTaskExecutor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="243.25" y="234.0" />
+                  <point x="263.0" y="234.0" />
+                  <point x="-39.5" y="15.0" />
+                </edge>
+                <edge source="sun.net.httpserver.ServerImpl.DefaultExecutor" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1037.0" y="90.0" />
+                  <point x="1211.090909090909" y="90.0" />
+                  <point x="-8.909090909090992" y="15.0" />
+                </edge>
+                <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor" target="org.springframework.core.task.AsyncTaskExecutor">
+                  <point x="56.25" y="-38.0" />
+                  <point x="358.75" y="314.0" />
+                  <point x="361.75" y="314.0" />
+                  <point x="361.75" y="234.0" />
+                  <point x="342.0" y="234.0" />
+                  <point x="39.5" y="15.0" />
+                </edge>
+                <edge source="io.netty.util.concurrent.DefaultEventExecutor" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1676.5" y="80.0" />
+                  <point x="1237.8181818181818" y="80.0" />
+                  <point x="17.818181818181756" y="15.0" />
+                </edge>
+                <edge source="sun.awt.shell.Win32ShellFolderManager2.ComInvoker" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="888.0" y="80.0" />
+                  <point x="1202.1818181818182" y="80.0" />
+                  <point x="-17.818181818181756" y="15.0" />
+                </edge>
+                <edge source="org.springframework.core.task.support.ConcurrentExecutorAdapter" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="2056.0" y="60.0" />
+                  <point x="1255.6363636363635" y="60.0" />
+                  <point x="35.63636363636351" y="15.0" />
+                </edge>
+                <edge source="io.netty.channel.DefaultEventLoopGroup" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="sun.nio.ch.AsynchronousChannelGroupImpl" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-38.0" />
+                  <point x="1452.5" y="90.0" />
+                  <point x="1228.909090909091" y="90.0" />
+                  <point x="8.909090909090992" y="15.0" />
+                </edge>
+                <edge source="org.springframework.core.task.AsyncTaskExecutor" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="302.5" y="50.0" />
+                  <point x="1175.4545454545455" y="50.0" />
+                  <point x="-44.545454545454504" y="15.0" />
+                </edge>
+                <edge source="io.netty.channel.DefaultEventLoop" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1856.5" y="70.0" />
+                  <point x="1246.7272727272727" y="70.0" />
+                  <point x="26.727272727272748" y="15.0" />
+                </edge>
+                <edge source="io.reactivex.netty.contexts.ContextAwareEventLoopGroup" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-49.5" />
+                  <point x="695.5" y="70.0" />
+                  <point x="1193.2727272727273" y="70.0" />
+                  <point x="-26.727272727272748" y="15.0" />
+                </edge>
+                <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskScheduler" target="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor">
+                  <point x="0.0" y="-38.0" />
+                  <point x="158.0" y="440.0" />
+                  <point x="246.25" y="440.0" />
+                  <point x="-56.25" y="38.0" />
+                </edge>
+                <edge source="org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler" target="org.springframework.scheduling.concurrent.ConcurrentTaskScheduler">
+                  <point x="0.0" y="-61.0" />
+                  <point x="0.0" y="38.0" />
+                </edge>
+                <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor" target="org.springframework.core.task.AsyncListenableTaskExecutor">
+                  <point x="-56.25" y="-38.0" />
+                  <point x="246.25" y="314.0" />
+                  <point x="243.25" y="314.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor" target="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor">
+                  <point x="0.0" y="-61.0" />
+                  <point x="447.0" y="440.0" />
+                  <point x="358.75" y="440.0" />
+                  <point x="56.25" y="38.0" />
+                </edge>
+                <edge source="org.springframework.integration.util.CompositeExecutor" target="java.util.concurrent.Executor">
+                  <point x="0.0" y="-15.0" />
+                  <point x="482.0" y="60.0" />
+                  <point x="1184.3636363636363" y="60.0" />
+                  <point x="-35.63636363636374" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="1326.0" y="75.0" />
+              <SelectedNodes>
+                <node>org.springframework.core.task.support.ConcurrentExecutorAdapter</node>
+                <node>sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+                <node>io.netty.channel.DefaultEventLoop</node>
+                <node>io.netty.channel.DefaultEventLoopGroup</node>
+                <node>sun.net.httpserver.ServerImpl.DefaultExecutor</node>
+                <node>org.springframework.integration.util.CompositeExecutor</node>
+                <node>io.reactivex.netty.contexts.ContextAwareEventLoopGroup</node>
+                <node>io.netty.util.concurrent.DefaultEventExecutor</node>
+                <node>io.netty.util.concurrent.DefaultEventExecutorGroup</node>
+                <node>sun.nio.ch.AsynchronousChannelGroupImpl</node>
+                <node>org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor</node>
+                <node>org.springframework.scheduling.concurrent.ConcurrentTaskExecutor</node>
+                <node>org.springframework.scheduling.concurrent.ConcurrentTaskScheduler</node>
+                <node>org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callable01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPkTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="e#708#833#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -167,6 +430,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>put</find>
+      <find>BlockedThread</find>
+      <find>run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -569,15 +834,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nio/src/main/java/socketprogram/Client.java" />
-        <option value="$PROJECT_DIR$/netty/transmission/src/main/java/Client.java" />
-        <option value="$PROJECT_DIR$/nio/src/main/java/reactor/server/TCPHandler.java" />
-        <option value="$PROJECT_DIR$/netty/transmission/src/main/java/PlainNioServer.java" />
-        <option value="$PROJECT_DIR$/netty/transmission/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/netty/netty-server/src/main/java/netty_time_server/client/TimeClient.java" />
-        <option value="$PROJECT_DIR$/netty/netty-server/src/main/java/netty_time_server/server/TiemServer.java" />
-        <option value="$PROJECT_DIR$/netty/netty-server/src/main/java/netty_time_server/client/TimeClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty/netty-server/src/main/java/netty_time_server/server/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/oio/src/main/java/multi_server/ThreadedEchoHandler.java" />
         <option value="$PROJECT_DIR$/many/note/gradle.md" />
         <option value="$PROJECT_DIR$/gradle/src/main/java/com/dl/gradle/todo/TodoItem.java" />
@@ -620,6 +876,15 @@
         <option value="D:/tuling/tuling-juc/juc01/src/main/java/com/jiagouedu/thread/Callable01.java" />
         <option value="$PROJECT_DIR$/many/juc01/pom.xml" />
         <option value="$PROJECT_DIR$/Netty_learning plan.md" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadState.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Runable01.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java" />
+        <option value="$PROJECT_DIR$/many/juc01/README.md" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable02.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPkTest.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolPkTest.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java" />
       </list>
     </option>
   </component>
@@ -665,8 +930,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-332" />
-    <option name="y" value="96" />
+    <option name="x" value="-1543" />
+    <option name="y" value="69" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -733,28 +998,12 @@
             <path>
               <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
               <item name="many" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="many" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="many" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="many" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="juc01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiagouedu" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
@@ -780,9 +1029,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -806,25 +1055,26 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.dl.rediscache.service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rainbow\" />
+      <recent name="D:\daydayup\gradle" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiagouedu.thread" />
       <recent name="messagepack" />
       <recent name="" />
       <recent name="two.dirtyread.t9" />
       <recent name="com.dl.rediscache.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rainbow\many\juc01" />
       <recent name="D:\rainbow" />
       <recent name="D:\rainbow\zuul" />
       <recent name="D:\daydayup\netty" />
       <recent name="D:\daydayup\many\note" />
-      <recent name="D:\daydayup\cache\redis-cache\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rainbow\" />
-      <recent name="D:\daydayup\gradle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -839,47 +1089,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadSort">
-    <configuration name="EchoClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="messagepack.EchoClient" />
-      <module name="netty_" />
+  <component name="RunManager" selected="Application.Callable01">
+    <configuration name="Callable01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiagouedu.thread.Callable01" />
+      <module name="juc-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="messagepack.*" />
+          <option name="PATTERN" value="com.jiagouedu.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="echo_demo.client.EchoClient" />
-      <module name="netty_" />
+    <configuration name="ThreadPkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiagouedu.threadpool.ThreadPkTest" />
+      <module name="juc-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="echo_demo.client.*" />
+          <option name="PATTERN" value="com.jiagouedu.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EchoServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="messagepack.EchoServer" />
-      <module name="netty_" />
+    <configuration name="ThreadPoolPkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiagouedu.threadpool.ThreadPoolPkTest" />
+      <module name="juc-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="messagepack.*" />
+          <option name="PATTERN" value="com.jiagouedu.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="echo_demo.server.EchoServer" />
-      <module name="netty_" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiagouedu.threadpool.ThreadPoolTest" />
+      <module name="juc-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="echo_demo.server.*" />
+          <option name="PATTERN" value="com.jiagouedu.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1197,19 +1447,19 @@
       <item itemvalue="Spring Boot.MsConsumerOrderRibbonHystrixFusingApplication" />
       <item itemvalue="Spring Boot.MsEurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.RedisCacheApplication" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.EchoServer (1)" />
-      <item itemvalue="Application.EchoClient (1)" />
       <item itemvalue="Application.ThreadSort" />
+      <item itemvalue="Application.Callable01" />
+      <item itemvalue="Application.ThreadPoolPkTest" />
+      <item itemvalue="Application.ThreadPoolTest" />
+      <item itemvalue="Application.ThreadPkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Callable01" />
+        <item itemvalue="Application.ThreadPoolPkTest" />
+        <item itemvalue="Application.ThreadPkTest" />
+        <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.ThreadSort" />
-        <item itemvalue="Application.EchoClient (1)" />
-        <item itemvalue="Application.EchoServer (1)" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -1272,7 +1522,8 @@
       <workItem from="1536759171766" duration="1454000" />
       <workItem from="1536765105859" duration="141000" />
       <workItem from="1536844084619" duration="4763000" />
-      <workItem from="1536850194512" duration="536000" />
+      <workItem from="1536850194512" duration="671000" />
+      <workItem from="1536931776280" duration="6831000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1317,10 +1568,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182349000" />
+    <option name="totallyTimeSpent" value="189315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1335,25 +1586,25 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.26539755" />
       <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922733" />
-      <window_info anchor="right" id="Run" order="11" weight="0.37793177" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.23964165" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.56774914" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="10" weight="0.15671642" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
@@ -1384,123 +1635,43 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <line>255</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <line>265</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <line>232</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executors.java</url>
+          <line>214</line>
+          <properties class="java.util.concurrent.Executors" method="newCachedThreadPool">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/netty-server/src/main/java/web_socket/WebSocketServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/eureka-server-ha/src/main/java/com/zuul/eurekaserverha/EurekaServerHaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/eureka-server-ha/src/main/resources/application-easy.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio/src/main/java/buffer/IO_Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/netty-server/src/main/java/aio_time_server/server/AcceptCompletionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="230" column="28" selection-start-line="230" selection-start-column="28" selection-end-line="230" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/netty-server/src/main/java/aio_time_server/server/AsyncTimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/netty-server/src/main/java/nio_time_server/client/TimeClientHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="111" column="19" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/dl/gradle/todo/TodoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/dl/gradle/todo/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/netty-server/src/main/java/netty_private_protocol/NettyMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
@@ -1673,58 +1844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Runable01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Thread01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1735,6 +1854,384 @@
             <caret line="326" column="13" selection-start-line="326" selection-start-column="13" selection-end-line="326" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="385" column="26" lean-forward="true" selection-start-line="385" selection-start-column="26" selection-end-line="385" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Runable01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="430" column="5" lean-forward="true" selection-start-line="395" selection-start-column="3" selection-end-line="430" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1215">
+            <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Thread01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/MonitorThreadPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="136" column="45" lean-forward="true" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolPkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/threadpool/ThreadPkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#708#833#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="1295" column="16" selection-start-line="1295" selection-start-column="16" selection-end-line="1295" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.ThreadPoolExecutor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.ThreadPoolExecutor</OriginalElement>
+          <nodes>
+            <node x="0.0" y="160.0">java.util.concurrent.AbstractExecutorService</node>
+            <node x="44.5" y="0.0">java.util.concurrent.Executor</node>
+            <node x="11.0" y="240.0">java.util.concurrent.ThreadPoolExecutor</node>
+            <node x="21.0" y="82.0">java.util.concurrent.ExecutorService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ThreadPoolExecutor" target="java.util.concurrent.AbstractExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-388.5" y="62.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.Executor</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="171" column="27" lean-forward="true" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/ThreadSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/thread/Callable01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.Executor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.Executor</OriginalElement>
+          <nodes>
+            <node x="1951.5" y="144.5">org.springframework.core.task.support.ConcurrentExecutorAdapter</node>
+            <node x="223.5" y="144.5">org.springframework.core.task.AsyncTaskExecutor</node>
+            <node x="967.5" y="144.5">sun.net.httpserver.ServerImpl.DefaultExecutor</node>
+            <node x="401.5" y="144.5">org.springframework.integration.util.CompositeExecutor</node>
+            <node x="2180.5" y="144.5">io.netty.util.concurrent.DefaultEventExecutorGroup</node>
+            <node x="582.5" y="110.0">io.reactivex.netty.contexts.ContextAwareEventLoopGroup</node>
+            <node x="0.0" y="488.0">org.springframework.scheduling.concurrent.ConcurrentTaskScheduler</node>
+            <node x="43.5" y="637.0">org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler</node>
+            <node x="1781.5" y="144.5">io.netty.channel.DefaultEventLoop</node>
+            <node x="1171.0" y="0.0">java.util.concurrent.Executor</node>
+            <node x="1126.5" y="144.5">io.netty.channel.DefaultEventLoopGroup</node>
+            <node x="1591.5" y="144.5">io.netty.util.concurrent.DefaultEventExecutor</node>
+            <node x="336.0" y="465.0">org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor</node>
+            <node x="828.5" y="144.5">sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+            <node x="135.25" y="259.0">org.springframework.core.task.AsyncListenableTaskExecutor</node>
+            <node x="1333.5" y="121.5">sun.nio.ch.AsynchronousChannelGroupImpl</node>
+            <node x="190.0" y="339.0">org.springframework.scheduling.concurrent.ConcurrentTaskExecutor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.netty.util.concurrent.DefaultEventExecutorGroup" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="2284.0" y="50.0" />
+              <point x="1264.5454545454545" y="50.0" />
+              <point x="44.545454545454504" y="15.0" />
+            </edge>
+            <edge source="org.springframework.core.task.AsyncListenableTaskExecutor" target="org.springframework.core.task.AsyncTaskExecutor">
+              <point x="0.0" y="-15.0" />
+              <point x="243.25" y="234.0" />
+              <point x="263.0" y="234.0" />
+              <point x="-39.5" y="15.0" />
+            </edge>
+            <edge source="sun.net.httpserver.ServerImpl.DefaultExecutor" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="1037.0" y="90.0" />
+              <point x="1211.090909090909" y="90.0" />
+              <point x="-8.909090909090992" y="15.0" />
+            </edge>
+            <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor" target="org.springframework.core.task.AsyncTaskExecutor">
+              <point x="56.25" y="-38.0" />
+              <point x="358.75" y="314.0" />
+              <point x="361.75" y="314.0" />
+              <point x="361.75" y="234.0" />
+              <point x="342.0" y="234.0" />
+              <point x="39.5" y="15.0" />
+            </edge>
+            <edge source="io.netty.util.concurrent.DefaultEventExecutor" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="1676.5" y="80.0" />
+              <point x="1237.8181818181818" y="80.0" />
+              <point x="17.818181818181756" y="15.0" />
+            </edge>
+            <edge source="sun.awt.shell.Win32ShellFolderManager2.ComInvoker" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="888.0" y="80.0" />
+              <point x="1202.1818181818182" y="80.0" />
+              <point x="-17.818181818181756" y="15.0" />
+            </edge>
+            <edge source="org.springframework.core.task.support.ConcurrentExecutorAdapter" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="2056.0" y="60.0" />
+              <point x="1255.6363636363635" y="60.0" />
+              <point x="35.63636363636351" y="15.0" />
+            </edge>
+            <edge source="io.netty.channel.DefaultEventLoopGroup" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="sun.nio.ch.AsynchronousChannelGroupImpl" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-38.0" />
+              <point x="1452.5" y="90.0" />
+              <point x="1228.909090909091" y="90.0" />
+              <point x="8.909090909090992" y="15.0" />
+            </edge>
+            <edge source="org.springframework.core.task.AsyncTaskExecutor" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="302.5" y="50.0" />
+              <point x="1175.4545454545455" y="50.0" />
+              <point x="-44.545454545454504" y="15.0" />
+            </edge>
+            <edge source="io.netty.channel.DefaultEventLoop" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="1856.5" y="70.0" />
+              <point x="1246.7272727272727" y="70.0" />
+              <point x="26.727272727272748" y="15.0" />
+            </edge>
+            <edge source="io.reactivex.netty.contexts.ContextAwareEventLoopGroup" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-49.5" />
+              <point x="695.5" y="70.0" />
+              <point x="1193.2727272727273" y="70.0" />
+              <point x="-26.727272727272748" y="15.0" />
+            </edge>
+            <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskScheduler" target="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor">
+              <point x="0.0" y="-38.0" />
+              <point x="158.0" y="440.0" />
+              <point x="246.25" y="440.0" />
+              <point x="-56.25" y="38.0" />
+            </edge>
+            <edge source="org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler" target="org.springframework.scheduling.concurrent.ConcurrentTaskScheduler">
+              <point x="0.0" y="-61.0" />
+              <point x="0.0" y="38.0" />
+            </edge>
+            <edge source="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor" target="org.springframework.core.task.AsyncListenableTaskExecutor">
+              <point x="-56.25" y="-38.0" />
+              <point x="246.25" y="314.0" />
+              <point x="243.25" y="314.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor" target="org.springframework.scheduling.concurrent.ConcurrentTaskExecutor">
+              <point x="0.0" y="-61.0" />
+              <point x="447.0" y="440.0" />
+              <point x="358.75" y="440.0" />
+              <point x="56.25" y="38.0" />
+            </edge>
+            <edge source="org.springframework.integration.util.CompositeExecutor" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="482.0" y="60.0" />
+              <point x="1184.3636363636363" y="60.0" />
+              <point x="-35.63636363636374" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1326.0" y="75.0" />
+          <SelectedNodes>
+            <node>org.springframework.core.task.support.ConcurrentExecutorAdapter</node>
+            <node>sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+            <node>io.netty.channel.DefaultEventLoop</node>
+            <node>io.netty.channel.DefaultEventLoopGroup</node>
+            <node>sun.net.httpserver.ServerImpl.DefaultExecutor</node>
+            <node>org.springframework.integration.util.CompositeExecutor</node>
+            <node>io.reactivex.netty.contexts.ContextAwareEventLoopGroup</node>
+            <node>io.netty.util.concurrent.DefaultEventExecutor</node>
+            <node>io.netty.util.concurrent.DefaultEventExecutorGroup</node>
+            <node>sun.nio.ch.AsynchronousChannelGroupImpl</node>
+            <node>org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor</node>
+            <node>org.springframework.scheduling.concurrent.ConcurrentTaskExecutor</node>
+            <node>org.springframework.scheduling.concurrent.ConcurrentTaskScheduler</node>
+            <node>org.springframework.scheduling.concurrent.DefaultManagedTaskScheduler</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -4,8 +4,6 @@ package com.jiagouedu.thread;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 图灵学院-致敬大师，致敬未来的你
- * 悟空QQ：245553999
  * 线程状态
  * 通过jps>jstack
  */
