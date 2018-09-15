@@ -63,3 +63,5 @@ Callable接口的 call()方法允许抛出异 方法允许抛出异 常，而 Ru
 不继 方法的异常只能在内部消化，不继 续上抛 4）加入线程池运行， Runnable使用 ExecutorService的 execute方法，
  Callable使用 submit方法 注： Callable接口支持返回执行结果，此时需要调用 接口支持返回执行结果，
  此时需要调用 接口支持返回执行结果，此时需要调用 FutureTask.get()方法实现，此会阻塞主线程直到获 方法实现，此会阻塞主线程直到获 取
+ 
+ //
