@@ -1,51 +1,51 @@
-package com.jiagouedu.threadpool;/*
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- * 图灵学院-悟空老师
- * 以往视频加小乔老师QQ：895900009
- * 悟空老师QQ：245553999
- */
+package com.jiagouedu.threadpool;
+import com.jiagouedu.thread.Callable01;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
 
 public class ThreadPoolTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
        ExecutorService executorService= Executors.newCachedThreadPool();
        // new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
-        //submit方法
-//       executorService.submit(new Runnable() {
-//           @Override
-//           public void run() {
-//           System.out.println(Thread.currentThread().getName());
-//           System.out.println("悟空是只猴子");
-//         }
-//       });
+//        submit方法
+        System.out.println(
+       executorService.submit(new Runnable() {
+           @Override
+           public void run() {
+           System.out.println(Thread.currentThread().getName());
+           System.out.println("悟空是只猴子");
+         }
+       }).get()
+        );
+       //---------------------submit Callable---------------
+//        Future task =executorService.submit(new Callable<String>(){
+//            @Override
+//            public String call() throws Exception {
+//                int count = 0;
+//                for(int i =0 ;i< 100 ;i++){
+//                   count += i;
+//                }
+//                System.out.println(count);
+//                return "ok";
+//            }
+//        });
+//        System.out.println(task.get());
+        //-----------------------------------
 //        executorService.shutdown();
-      new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
-      executorService.execute(
-              ()->
-              { System.out.println(Thread.currentThread().getName());
-      System.out.println("悟空是只猴子");
-      try {
-        Thread.sleep(10000);
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      }});
-        executorService.shutdown();
+//      new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
+
+
+//      executorService.execute(
+//              ()->
+//              { System.out.println(Thread.currentThread().getName());
+//      System.out.println("悟空是只猴子");
+//      try {
+//        Thread.sleep(10000);
+//      } catch (InterruptedException e) {
+//        e.printStackTrace();
+//      }});
+//        executorService.shutdown();
 
     }
 
