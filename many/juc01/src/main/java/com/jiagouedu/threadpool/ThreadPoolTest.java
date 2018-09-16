@@ -26,13 +26,15 @@ public class ThreadPoolTest {
     public static void main(String[] args) {
        ExecutorService executorService= Executors.newCachedThreadPool();
        // new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
-      /* executorService.submit(new Runnable() {
-           @Override
-           public void run() {
-           System.out.println(Thread.currentThread().getName());
-           System.out.println("悟空是只猴子");
-         }
-       });*/
+        //submit方法
+//       executorService.submit(new Runnable() {
+//           @Override
+//           public void run() {
+//           System.out.println(Thread.currentThread().getName());
+//           System.out.println("悟空是只猴子");
+//         }
+//       });
+//        executorService.shutdown();
       new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
       executorService.execute(
               ()->
