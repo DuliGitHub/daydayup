@@ -61,5 +61,9 @@
    - 3）Callable接口的 **call()方法允许抛出异,而 Runnable接口的 run()方法的异常只能在内部消化**，
    -  4）**加入线程池运行， Runnable使用 ExecutorService的 execute方法**，
    Callable使用 submit方法 注： Callable接口支持返回执行结果，此时需要调用 接口支持返回执行结果,此时需要调用 FutureTask.get()方法实现，
-   此会阻塞主线程直到获 方法实现，此会阻塞主线程直到获 取
+   此会阻塞主线程直到获 方法实现，此会阻塞主线程直到获取返回结果，当不调用此方法时，主线程不会阻塞
+- java 中的线程池
+   - 普通线程池 ThreadPoolExecutor
+   - 定时线程池ScheduledThreadPoolExecutor
+   
 
