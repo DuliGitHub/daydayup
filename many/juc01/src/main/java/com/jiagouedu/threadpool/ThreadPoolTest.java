@@ -9,15 +9,15 @@ public class ThreadPoolTest {
        ExecutorService executorService= Executors.newCachedThreadPool();
        // new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
 //        submit方法
-        System.out.println(
-       executorService.submit(new Runnable() {
-           @Override
-           public void run() {
-           System.out.println(Thread.currentThread().getName());
-           System.out.println("悟空是只猴子");
-         }
-       }).get()
-        );
+//        System.out.println(
+//       executorService.submit(new Runnable() {
+//           @Override
+//           public void run() {
+//           System.out.println(Thread.currentThread().getName());
+//           System.out.println("悟空是只猴子");
+//         }
+//       }).get()
+//        );
        //---------------------submit Callable---------------
 //        Future task =executorService.submit(new Callable<String>(){
 //            @Override
@@ -33,19 +33,19 @@ public class ThreadPoolTest {
 //        System.out.println(task.get());
         //-----------------------------------
 //        executorService.shutdown();
-//      new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
+      new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService,1)).start();
 
 
-//      executorService.execute(
-//              ()->
-//              { System.out.println(Thread.currentThread().getName());
-//      System.out.println("悟空是只猴子");
-//      try {
-//        Thread.sleep(10000);
-//      } catch (InterruptedException e) {
-//        e.printStackTrace();
-//      }});
-//        executorService.shutdown();
+      executorService.execute(
+              ()->
+              { System.out.println(Thread.currentThread().getName());
+      System.out.println("悟空是只猴子");
+      try {
+        Thread.sleep(10000);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }});
+        executorService.shutdown();
 
     }
 
