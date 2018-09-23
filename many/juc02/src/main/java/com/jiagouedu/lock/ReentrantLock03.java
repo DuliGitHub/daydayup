@@ -22,13 +22,13 @@ public class ReentrantLock03 {
     ReentrantLock03 reentrantLock01 = new ReentrantLock03();
     new Thread(()->{
       reentrantLock01.add();
-    }).start();
+    },"A").start();
     Thread.sleep(1000);//主要目的是让两个线程把事情干完
     Thread thread = new Thread(() -> {
       reentrantLock01.add();
-    });
+    },"B");
     thread.start();
-    Thread.sleep(1000);//主要目的是让两个线程把事情干完
+    Thread.sleep(3000);//主要目的是让两个线程把事情干完
     thread.interrupt();//增加这段代码================
     System.out.println(i);
 

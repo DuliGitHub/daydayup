@@ -10,16 +10,16 @@ public class ReentrantLock02 {
     ReentrantLock02 reentrantLock01 = new ReentrantLock02();
     Thread thread = new Thread(() -> {
       reentrantLock01.add();
-    });
+    },"A");
     thread.start();
 
-    Thread.sleep(1000);//主要目的是让两个线程把事情干完
+    Thread.sleep(6100);//主要目的是让两个线程把事情干完
     Thread thread2 = new Thread(() -> {
       reentrantLock01.add();
-    });
+    },"B");
     thread2.start();
-    Thread.sleep(1000);//主要目的是让两个线程把事情干完
-    thread2.interrupt();//增加这段代码================
+    Thread.sleep(10000);//主要目的是让两个线程把事情干完
+//    thread2.interrupt();//增加这段代码================
     System.out.println(i);
 
   }
@@ -34,11 +34,19 @@ public class ReentrantLock02 {
         reentrantLock.lockInterruptibly();
       } catch (InterruptedException e) {
         e.printStackTrace();
+        System.out.println("Interrupt");
       }
       for (;;) {
+
+        System.out.println(Thread.currentThread().getName() + "--------" + i);
+        Thread.sleep(1000);
         i++;
       }
-    } finally {
+
+    } catch (InterruptedException i) {
+      i.printStackTrace();
+    }
+    finally {
       reentrantLock.unlock();
     }
   }

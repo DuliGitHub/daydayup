@@ -13,12 +13,14 @@ public class ConditionExample {
 		try {
 			lock.lock();
 			System.out.println( Thread.currentThread().getName() + "睡觉");
-			Thread.sleep(1000);
+			Thread.sleep(5000);
 			condition.await();
+//			condition.signal();
 			System.out.println( Thread.currentThread().getName() +"醒了");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
+			System.out.println("finally---await");
 			lock.unlock();
 		}
 	}
@@ -29,9 +31,11 @@ public class ConditionExample {
 			System.out.println(Thread.currentThread().getName() + "快起来");
 			Thread.sleep(1000);
 			condition.signal();
+//			condition.await();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
+			System.out.println("finally---singnal");
 			lock.unlock();
 		}
 	}
