@@ -1,25 +1,15 @@
-package com.jiagouedu.volatiles;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * 图灵学院-悟空老师
- * www.jiagouedu.com
- * 悟空老师QQ：245553999
- */
+package com.jiagouedu.volatiles;
 
+/**
+ * volatile
+ */
 public class Volatile02 implements Runnable{
 
     static volatile int	i	= 1;
+//    static  int	i	= 1;
+//      int	i	= 1;
     @Override
-    public void run()
+    public synchronized void run()
     {
       /***
        * i++; 操作并非为原子性操作。

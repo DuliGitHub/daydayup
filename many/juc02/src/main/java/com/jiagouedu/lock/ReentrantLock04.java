@@ -13,7 +13,7 @@ public class ReentrantLock04 implements Runnable {
 	@Override
 	public void run() {
 		try {
-			if (reentrantLock.tryLock(5, TimeUnit.SECONDS)) {
+			if (reentrantLock.tryLock(5, TimeUnit.SECONDS)) { //tryLock 5秒如果没有等方法执行完，就不等了
 				Thread.sleep(6000); //调这个时间===========
 				System.out.println("获取");
 			} else {
@@ -23,7 +23,7 @@ public class ReentrantLock04 implements Runnable {
 			e.printStackTrace();
 		} finally {
 			if(reentrantLock.isHeldByCurrentThread()) {// 不加这个条件会报错 getHoldCount()方法来检查当前线程是否拥有该锁
-				reentrantLock.unlock();
+				reentrantLock.unlock();//没有获取锁就不需要解锁
 			}
 		}
 	}
@@ -31,6 +31,7 @@ public class ReentrantLock04 implements Runnable {
 	public static void main(String[] args) {
 		ReentrantLock04 reentrantLock03 = new ReentrantLock04();
 		IntStream.range(0,2).forEach(i->new Thread(reentrantLock03){
+
 		}.start());
 
 	}

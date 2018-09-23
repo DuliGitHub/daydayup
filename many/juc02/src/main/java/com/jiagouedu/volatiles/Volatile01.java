@@ -1,22 +1,8 @@
-package com.jiagouedu.volatiles;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * 图灵学院-悟空老师
- * www.jiagouedu.com
- * 悟空老师QQ：245553999
- */
+package com.jiagouedu.volatiles;
 
 public class Volatile01 {
 
+//   boolean stop =false;
   volatile boolean stop =false;
 
 
@@ -32,7 +18,7 @@ public class Volatile01 {
 
 
   public static void main(String[] args) throws InterruptedException {
-    Volatile01 volatile01=new Volatile01();
+    Volatile01 volatile01 = new Volatile01();
     new Thread(()->{
       volatile01.doWork();//先就开始工作，stop为false
     }).start();

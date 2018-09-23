@@ -1,4 +1,5 @@
-package com.jiagouedu.volatiles;/*
+package com.jiagouedu.volatiles;
+/*
  * 　　　┏┓　　　┏┓
  * 　　┏┛┻━━━┛┻┓
  * 　　┃　　　━　　　┃
@@ -33,7 +34,7 @@ public class KafkaStart {
     TlUtil.timeTasks(10, 10, new Runnable() {
       @Override
       public void run() {
-//        KafkaStart xxxStart=new KafkaStart();  //测试下
+//        KafkaStart xxxStart=new KafkaStart();  //每个线程一个对象
         xxxStart.start();
       }
     });

@@ -25,7 +25,7 @@ public class Sync01 implements Runnable {
   static int i = 0;
 
   @Override
-  public   void run() {
+  public  synchronized void run() {
     //重构
     for (int j = 0; j < 10000; j++) {
       i++;
@@ -37,12 +37,12 @@ public class Sync01 implements Runnable {
   /*  IntStream.range(0,2).forEach(i->new Thread(sync01){
     }.start());*/
 
-/*
+
     Thread thread = new Thread(sync01);
     Thread thread2 = new Thread(sync01);
     thread.start();
     thread2.start();
-    thread.join();thread2.join();*/
+    thread.join();thread2.join();
     System.out.println(i);
 
 

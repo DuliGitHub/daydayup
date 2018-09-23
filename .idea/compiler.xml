@@ -119,7 +119,7 @@
       <module name="hystrix2" target="1.8" />
       <module name="java8" target="1.5" />
       <module name="juc-01" target="1.8" />
-      <module name="juc02" target="1.7" />
+      <module name="juc02" target="1.8" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
       <module name="ms-consumer-order-feign" target="1.8" />

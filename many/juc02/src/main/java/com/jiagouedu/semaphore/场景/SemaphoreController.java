@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 
 public class SemaphoreController {
 
-	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SemaphoreController.class.getName());
+	private static final org.slf4j.Logger logger  = org.slf4j.LoggerFactory.getLogger(SemaphoreController.class.getName());
 
 	private static final ScheduledExecutorService scheduledExecutorService = Executors.newSingleThreadScheduledExecutor(new ThreadFactory() {
 		@Override
@@ -84,7 +84,7 @@ public class SemaphoreController {
 						if (0 != newCount) {
 							int oldCount = blockingQueues.get(key).getQueueCount();
 							if (newCount != oldCount) {
-								log.info("blockingQueueCount modify,methodName:" + key + ",old:" + oldCount + ",new:" + newCount);
+								logger.info("blockingQueueCount modify,methodName:" + key + ",old:" + oldCount + ",new:" + newCount);
 								blockingQueues.get(key).resetSemaphore(newCount);
 							}
 						}
