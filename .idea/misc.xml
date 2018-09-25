@@ -70,6 +70,10 @@
         <option value="$PROJECT_DIR$/netty/pom.xml" />
         <option value="$PROJECT_DIR$/many/juc01/pom.xml" />
         <option value="$PROJECT_DIR$/many/juc02/pom.xml" />
+        <option value="$PROJECT_DIR$/many/juc03/pom.xml" />
+        <option value="$PROJECT_DIR$/many/juc04/pom.xml" />
+        <option value="$PROJECT_DIR$/many/juc05/pom.xml" />
+        <option value="$PROJECT_DIR$/many/juc06/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

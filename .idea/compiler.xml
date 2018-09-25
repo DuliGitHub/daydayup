@@ -44,6 +44,10 @@
         <module name="java8" />
         <module name="juc-01" />
         <module name="juc02" />
+        <module name="juc03" />
+        <module name="juc04" />
+        <module name="juc05" />
+        <module name="juc06" />
         <module name="monster" />
         <module name="ms-cinsumer-order-ribbon" />
         <module name="ms-consumer-order-feign" />
@@ -120,6 +124,10 @@
       <module name="java8" target="1.5" />
       <module name="juc-01" target="1.8" />
       <module name="juc02" target="1.8" />
+      <module name="juc03" target="1.8" />
+      <module name="juc04" target="1.7" />
+      <module name="juc05" target="1.7" />
+      <module name="juc06" target="1.8" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
       <module name="ms-consumer-order-feign" target="1.8" />

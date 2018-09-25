@@ -1,0 +1,34 @@
+
+java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue  FIFO
+
+
+就是封装成ScheduledFutureTask task放到队列里面去 然后去addWork new Work 启动那个work getTask
+java.util.concurrent.ScheduledThreadPoolExecutor.scheduleAtFixedRate
+  >java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask
+    >java.util.concurrent.ScheduledThreadPoolExecutor.decorateTask(java.lang.Runnable, java.util.concurrent.RunnableScheduledFuture<V>)
+      >java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute
+        >java.util.concurrent.ThreadPoolExecutor.ensurePrestart
+          >java.util.concurrent.ThreadPoolExecutor.addWorker
+
+
+任务是怎么放到队列里面去的
+java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue.add
+
+
+
+java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask.run
+ 对我们任务进行排序
+ java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue.siftUp
+   java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue.siftDown>
+
+
+AQS:
+
+java.util.concurrent.locks.AbstractQueuedSynchronizer#acquire 获取许可
+>java.util.concurrent.locks.ReentrantLock.NonfairSync#tryAcquire
+ >java.util.concurrent.locks.ReentrantLock.Sync.nonfairTryAcquire 第一次获取锁 不走队列
+   >java.util.concurrent.locks.AbstractQueuedSynchronizer.addWaiter
+
+
+  学员作业：https://github.com/peipei-zeroen/tuling-homework
+
