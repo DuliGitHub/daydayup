@@ -32,7 +32,7 @@ public class Main {
 //---------------------------------------------------------------------------------------------------------------------------------------
             //orElse(T other)，orElseGet(Supplier<? extends T> other)和orElseThrow(Supplier<? extends X> exceptionSupplier)
         //orElse和orElseGet的用法如下所示，相当于value值为null时，给予一个默认值
-        User user1 = null;
+        User user1;
         User user2 = new User("kk");
         user1 = Optional.ofNullable(user2).orElse(createUser());
         System.out.println(user1.toString());

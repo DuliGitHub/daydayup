@@ -121,7 +121,7 @@
       <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrix-turbine" target="1.8" />
       <module name="hystrix2" target="1.8" />
-      <module name="java8" target="1.5" />
+      <module name="java8" target="8" />
       <module name="juc-01" target="1.8" />
       <module name="juc02" target="1.8" />
       <module name="juc03" target="1.8" />
