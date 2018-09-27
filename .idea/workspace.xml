@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Netty_learning plan.md" line="218" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SearchServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SearchServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-eureka/target/" />
@@ -192,8 +187,8 @@
       <file leaf-file-name="SemaphoreController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1128">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -752,8 +747,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1524" />
-    <option name="y" value="167" />
+    <option name="x" value="189" />
+    <option name="y" value="217" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -1349,7 +1344,7 @@
       <workItem from="1537764853406" duration="11982000" />
       <workItem from="1537884899848" duration="3154000" />
       <workItem from="1537973673486" duration="1365000" />
-      <workItem from="1538057133194" duration="1205000" />
+      <workItem from="1538057133194" duration="3100000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1394,7 +1389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241850000" />
+    <option name="totallyTimeSpent" value="243745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1463,67 +1458,67 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <url />
           <line>255</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <url />
           <line>265</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <url />
           <line>232</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/FutureTask.java</url>
+          <url />
           <line>190</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>1332</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>924</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>616</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Executors.java</url>
+          <url />
           <line>217</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>1065</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>1126</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>1141</line>
           <properties />
           <option name="timeStamp" value="19" />
@@ -1535,13 +1530,13 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/AbstractExecutorService.java</url>
+          <url />
           <line>111</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <url />
           <line>897</line>
           <properties />
           <option name="timeStamp" value="24" />
@@ -1901,8 +1896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="114">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
