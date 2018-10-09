@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
-      <change afterPath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/lock/TryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/countdownlatch/CountDownLatchJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/countdownlatch/CountDownLatchJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer$CharCloumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer$CharCloumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer$Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer$Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SearchServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/many/juc02/target/classes/com/jiagouedu/semaphore/场景/SemaphoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8-rc-1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8-rc-1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8-rc-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8-rc-1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/proxy/proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many/proxy/proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/many/saga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many/saga.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
@@ -98,7 +94,6 @@
     <ignored path="$PROJECT_DIR$/many/juc05/target/" />
     <ignored path="$PROJECT_DIR$/many/juc06/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,110 +144,30 @@
       </state>
     </system>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1258984054">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TryLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/lock/TryLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Semaphore01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/Semaphore01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreGetException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreGetException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallableImple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CallableImple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatch01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatch01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SearchServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -640,8 +555,6 @@
                   <option value="D:/Tools/gradle-4.8-rc-1/lib/plugins/gradle-version-control-4.8.jar" />
                   <option value="D:/Tools/gradle-4.8-rc-1/lib/plugins/gradle-workers-4.8.jar" />
                   <option value="D:/Tools/gradle-4.8-rc-1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$PROJECT_DIR$/gradle/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/gradle/buildSrc/src/main/groovy" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -653,22 +566,6 @@
       <map>
         <entry key="$PROJECT_DIR$/gradle" value="RE_IMPORT" />
       </map>
-    </option>
-  </component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy" />
-          <option name="moduleName" value="config" />
-          <option name="title" value="config (Bundled Groovy 2.4.12)" />
-        </Entry>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="gradle" />
-          <option name="title" value="gradle (Bundled Groovy 2.4.12)" />
-        </Entry>
-      </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
@@ -766,10 +663,7 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="189" />
     <option name="y" value="217" />
     <option name="width" value="1936" />
@@ -808,6 +702,33 @@
               <item name="juc01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="juc01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="juc01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiagouedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="juc01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiagouedu" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
@@ -865,12 +786,46 @@
               <item name="jiagouedu" type="462c0819:PsiDirectoryNode" />
               <item name="countdownlatch" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="many" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -882,13 +837,14 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539081680564" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/many/juc06/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -918,6 +874,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -940,6 +901,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiagouedu.countdownlatch.CountDownLatchDemo" />
@@ -951,6 +915,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Run (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.multi_thread.singleton.singleton_3_dcl.Run" />
@@ -962,6 +929,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Singleton01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiagouedu.singleton.Singleton01" />
@@ -973,6 +943,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiagouedu.lock.TryLock" />
@@ -984,255 +957,393 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configclient.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigClientAuthenticatingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client-authenticating" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configclientauthenticating.ConfigClientAuthenticatingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigClientEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configclienteureka.ConfigClientEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigClientRefreshApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client-refresh" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configclientrefresh.ConfigClientRefreshApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigClientRefreshCloudBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client-refresh-cloud-bus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configclientrefreshcloudbus.ConfigClientRefreshCloudBusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServerAuthenticatingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-authenticating" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configserverauthenticating.ConfigServerAuthenticatingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServerEncryptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-encryption" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configserverencryption.ConfigServerEncryptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServerEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configservereureka.ConfigServerEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServerRefreshCloudBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-refresh-cloud-bus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.configserverrefreshcloudbus.ConfigServerRefreshCloudBusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderFeignHystrixFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-feign-hystrix-fallback" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.consumerorderfeignhystrixfallback.ConsumerOrderFeignHystrixFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderFeignHystrixFallbackStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-feign-hystrix-fallback-stream" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.consumerorderfeignhystrixfallbackstream.ConsumerOrderFeignHystrixFallbackStreamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.consumerorderribbon.ConsumerOrderRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderRibbonHystrixFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-ribbon-hystrix-fallback" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.consumerorderribbonhystrixfallback.ConsumerOrderRibbonHystrixFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderTraceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-trace" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.consumerordertrace.ConsumerOrderTraceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConsumerOrderTraceZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-order-trace-zipkin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.consumerordertracezipkin.ConsumerOrderTraceZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CookieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cookie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cookie.CookieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server (2) (com.zuul)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server (1) (com.dl)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EurekaServerHaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server-ha" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.eurekaserverha.EurekaServerHaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GateZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gate-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.gatezuul.GateZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GatewayZuulAggregationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-zuul-aggregation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.gatewayzuulaggregation.GatewayZuulAggregationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GatewayZuulFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-zuul-fallback" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.gatewayzuulfallback.GatewayZuulFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GatewayZuulFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-zuul-filter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.gatewayzuulfilter.GatewayZuulFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix-dashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.hystrixdashboard.HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="HystrixTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix-turbine" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.hystrixturbine.HystrixTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsCinsumerOrderRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-cinsumer-order-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.mscinsumerorderribbon.MsCinsumerOrderRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.msconsumerorderfeign.MsConsumerOrderFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonCustomizingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-customizing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.msconsumerorderribboncustomizing.MsConsumerOrderRibbonCustomizingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonCustomizingPropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-customizing-properties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.msconsumerorderribboncustomizingproperties.MsConsumerOrderRibbonCustomizingPropertiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonHystrixCustomizingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-hystrix-customizing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.msconsumerorderribbonhystrixcustomizing.MsConsumerOrderRibbonHystrixCustomizingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonHystrixFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-hystrix-fallback" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.msconsumerorderribbonhystrixfallback.MsConsumerOrderRibbonHystrixFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonHystrixFusingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-hystrix-fusing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.msconsumerorderribbonhystrixfusing.MsConsumerOrderRibbonHystrixFusingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonHystrixThreadIsolationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-hystrix-thread-isolation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.msconsumerorderribbonhystrixthreadisolation.MsConsumerOrderRibbonHystrixThreadIsolationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsConsumerOrderRibbonWithoutEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-consumer-order-ribbon-without-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.msconsumerorderribbonwithouteureka.MsConsumerOrderRibbonWithoutEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsEurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-eureka-server (1) (com.dl.cloud)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.mseurekaserver.MsEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-eureka-server (2) (com.dl)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.mseurekaserver.MsEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsProviderUserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-provider-user (1) (com.dl.cloud)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.cloud.msprovideruser.MsProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MsProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-provider-user (2) (com.dl)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.msprovideruser.MsProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProviderUserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-user (2) (com.zuul)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.provideruser.ProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-user (1) (com.dl)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.provideruser.ProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProviderUserTraceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-user-trace" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.providerusertrace.ProviderUserTraceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProviderUserTraceZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-user-trace-zipkin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.providerusertracezipkin.ProviderUserTraceZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rabbitmq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.rabbitmq.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RedisCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redis-cache" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.rediscache.RedisCacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RedisMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redis-mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.redismybatis.RedisMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringBootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zuul.springbootadmin.SpringBootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Swagger1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="swagger1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.Swagger1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Swagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="swagger2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.Swagger2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TraceZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="trace-zipkin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.tracezipkinserver.TraceZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TraceZipkinServerElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="trace-zipkin-server-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.tracezipkinserverelasticsearch.TraceZipkinServerElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ValidateTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="validate-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dl.validatetest.ValidateTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConfigClientRefreshApplication" />
@@ -1374,7 +1485,9 @@
       <workItem from="1537884899848" duration="3154000" />
       <workItem from="1537973673486" duration="1365000" />
       <workItem from="1538057133194" duration="3254000" />
-      <workItem from="1538312488740" duration="4468000" />
+      <workItem from="1538312488740" duration="5064000" />
+      <workItem from="1539078942292" duration="1629000" />
+      <workItem from="1539080605035" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1419,46 +1532,47 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248367000" />
+    <option name="totallyTimeSpent" value="251663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.26539755" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.34266517" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.56774914" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="10" weight="0.15671642" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.32922733" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.34266517" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Gradle" order="11" weight="0.15671642" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1571,29 +1685,9 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/txt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/threadpool/ScheduledThreadPoolExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1438">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent2/AbstarctExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1857,9 +1951,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="class#Node#0;class#Nodes#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/Semaphore01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreGetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SearchServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="71" lean-forward="true" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1867,79 +2007,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/test/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/Semaphore01.java">
+    <entry file="file://$PROJECT_DIR$/many/juc01/src/main/java/com/jiagouedu/test/AbstractRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SearchServer.java">
+    <entry file="file://$PROJECT_DIR$/many/proxy/src/main/java/dynamic/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreGetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/semaphore/场景/SemaphoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CallableImple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="247">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatch01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="31">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatchDemo.java">
+    <entry file="file://$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CallableImple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2015,6 +2128,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
