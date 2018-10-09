@@ -6,11 +6,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 public class SemaphoreTest {
-    static final Semaphore semaphor=new Semaphore(10);//允许10个线程获取许可.最大的并发数量
+    static final Semaphore semaphor = new Semaphore(10);//允许10个线程获取许可.最大的并发数量
 
     public static void main(String[] args) {
-        ExecutorService executorService= Executors.newCachedThreadPool();
-        for (int i=0;i<10000;i++){
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        for (int i = 0; i < 10000; i++) {
 
             executorService.submit(new Runnable() {
                 @Override
@@ -23,9 +23,9 @@ public class SemaphoreTest {
     }
 
     private static void hander() {
-        boolean acquire=semaphor.tryAcquire();
+        boolean acquire = semaphor.tryAcquire();
         try {
-            if(acquire){
+            if (acquire) {
                 System.out.println("没有限流，执行正常业务");
                 try {
                     Thread.sleep(new Random().nextInt(200));
@@ -33,8 +33,7 @@ public class SemaphoreTest {
                     e.printStackTrace();
                 }
 
-            } else
-            {
+            } else {
                 System.err.println("我被限流了");
             }
         } finally {

@@ -10,13 +10,13 @@ import java.util.concurrent.ForkJoinPool;
 
 public class CountedCompleterExample {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         List<BigInteger> list = new ArrayList<>();
         for (int i = 3; i < 20; i++) {
             list.add(new BigInteger(Integer.toString(i)));
         }
         ForkJoinPool.commonPool().invoke(
-                            new FactorialTask(null, list));
+                new FactorialTask(null, list));
 
     }
 
@@ -26,20 +26,20 @@ public class CountedCompleterExample {
         private List<BigInteger> integerList;
         private int numberCalculated;
 
-        private FactorialTask (CountedCompleter<Void> parent,
-                            List<BigInteger> integerList) {
+        private FactorialTask(CountedCompleter<Void> parent,
+                              List<BigInteger> integerList) {
             super(parent);
             this.integerList = integerList;
         }
 
         @Override
-        public void compute () {
+        public void compute() {
             if (integerList.size() <= SEQUENTIAL_THRESHOLD) {
                 showFactorial();
             } else {
                 int middle = integerList.size() / 2;
                 List<BigInteger> rightList = integerList.subList(middle,
-                                    integerList.size());
+                        integerList.size());
                 List<BigInteger> leftList = integerList.subList(0, middle);
                 addToPendingCount(2);
                 FactorialTask taskRight = new FactorialTask(this, rightList);
@@ -51,19 +51,19 @@ public class CountedCompleterExample {
         }
 
         @Override
-        public void onCompletion (CountedCompleter<?> caller) {
+        public void onCompletion(CountedCompleter<?> caller) {
             if (caller == this) {
                 System.out.printf("completed thread : %s numberCalculated=%s%n", Thread
-                                    .currentThread().getName(), numberCalculated);
+                        .currentThread().getName(), numberCalculated);
             }
         }
 
-        private void showFactorial () {
+        private void showFactorial() {
 
             for (BigInteger i : integerList) {
                 BigInteger factorial = CalcUtil.calculateFactorial(i);
                 System.out.printf("%s! = %s, thread = %s%n", i, factorial, Thread
-                                    .currentThread().getName());
+                        .currentThread().getName());
                 numberCalculated++;
             }
         }

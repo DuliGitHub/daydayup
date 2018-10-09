@@ -50,27 +50,27 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         }
 
         //构造握手响应返回，本机测试
-//        WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
-//                "ws://localhost:8080/websocket",null,false);
-//        if(handshaker == null){
-//            WebSocketServerHandshakerFactory.sendUnsupportedWebSocketVersionResponse(ctx.channel());
-//        }else {
-//            handshaker.handshake(ctx.channel(),req);
-//        }
+        WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
+                "ws://localhost:8080/websocket",null,false);
+        if(handshaker == null){
+            WebSocketServerHandshakerFactory.sendUnsupportedWebSocketVersionResponse(ctx.channel());
+        }else {
+            handshaker.handshake(ctx.channel(),req);
+        }
 
 //        // 正常WebSocket的Http连接请求，构造握手响应返回
-        String str = "ws://" + req.headers()
-                .get(HttpHeaders.Names.HOST);
-        System.out.println(str);
-        WebSocketServerHandshakerFactory wsFactory =
-                new WebSocketServerHandshakerFactory("ws://" + req.headers()
-                        .get(HttpHeaders.Names.HOST), null, false);
-        handshaker = wsFactory.newHandshaker(req);
-        if (handshaker == null) { // 无法处理的websocket版本
-            WebSocketServerHandshakerFactory.sendUnsupportedWebSocketVersionResponse(ctx.channel());
-        } else { // 向客户端发送websocket握手,完成握手
-            handshaker.handshake(ctx.channel(), req);
-        }
+//        String str = "ws://" + req.headers()
+//                .get(HttpHeaders.Names.HOST);
+//        System.out.println(str);
+//        WebSocketServerHandshakerFactory wsFactory =
+//                new WebSocketServerHandshakerFactory("ws://" + req.headers()
+//                        .get(HttpHeaders.Names.HOST), null, false);
+//        handshaker = wsFactory.newHandshaker(req);
+//        if (handshaker == null) { // 无法处理的websocket版本
+//            WebSocketServerHandshakerFactory.sendUnsupportedWebSocketVersionResponse(ctx.channel());
+//        } else { // 向客户端发送websocket握手,完成握手
+//            handshaker.handshake(ctx.channel(), req);
+//        }
     }
 
     private void handleWebSocketFrame(ChannelHandlerContext ctx,WebSocketFrame frame){

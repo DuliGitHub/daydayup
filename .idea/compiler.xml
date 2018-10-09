@@ -88,6 +88,12 @@
         <module name="zuul-eureka-server" />
         <module name="zuul-provider-user" />
       </profile>
+      <profile name="Annotation profile for nio" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="geektime" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
@@ -115,6 +121,7 @@
       <module name="gateway-zuul-aggregation" target="1.8" />
       <module name="gateway-zuul-fallback" target="1.8" />
       <module name="gateway-zuul-filter" target="1.8" />
+      <module name="geektime" target="1.5" />
       <module name="gradle_main" target="1.8" />
       <module name="gradle_test" target="1.8" />
       <module name="hystrix" target="1.8" />
@@ -155,7 +162,7 @@
       <module name="rabbitmq" target="1.8" />
       <module name="redis-cache" target="1.8" />
       <module name="redis-mybatis" target="1.8" />
-      <module name="saga" target="1.5" />
+      <module name="saga" target="1.8" />
       <module name="sleuth" target="1.8" />
       <module name="spring-boot-admin" target="1.5" />
       <module name="swagger1" target="1.8" />

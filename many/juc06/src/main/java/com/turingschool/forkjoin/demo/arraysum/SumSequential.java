@@ -5,7 +5,7 @@ import com.turingschool.forkjoin.demo.utils.Utils;
 
 public class SumSequential {
 
-    public static long sum(int[] arr){
+    public static long sum(int[] arr) {
         return SumUtils.sumRange(arr, 0, arr.length);
     }
 

@@ -12,7 +12,7 @@ public class SumRecursiveMT {
         int[] arr; // arguments
         ExecutorService executorService;
 
-        RecursiveSumTask( ExecutorService executorService, int[] a, int l, int h) {
+        RecursiveSumTask(ExecutorService executorService, int[] a, int l, int h) {
             this.executorService = executorService;
             this.arr = a;
             this.lo = l;
@@ -29,8 +29,7 @@ public class SumRecursiveMT {
 
                 System.out.format("%s range [%d-%d] begin to finished %n",
                         Thread.currentThread().getName(), lo, hi);
-            }
-            else {
+            } else {
                 RecursiveSumTask left = new RecursiveSumTask(executorService, arr, lo, (hi + lo) / 2);
                 RecursiveSumTask right = new RecursiveSumTask(executorService, arr, (hi + lo) / 2, hi);
                 Future<Long> lr = executorService.submit(left);
@@ -48,11 +47,11 @@ public class SumRecursiveMT {
 
     public static long sum(int[] arr) throws Exception {
         int nofProcessors = Runtime.getRuntime().availableProcessors();
-       // ExecutorService executorService = Executors.newFixedThreadPool(4);
+        // ExecutorService executorService = Executors.newFixedThreadPool(4);
         ExecutorService executorService = Executors.newCachedThreadPool();
 
         RecursiveSumTask task = new RecursiveSumTask(executorService, arr, 0, arr.length);
-        long result =  executorService.submit(task).get();
+        long result = executorService.submit(task).get();
         return result;
     }
 

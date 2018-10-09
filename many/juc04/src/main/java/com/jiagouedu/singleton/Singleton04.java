@@ -26,32 +26,34 @@ import java.util.concurrent.CopyOnWriteArraySet;
 @ThreadSafe
 public class Singleton04 {
 
-  private static Singleton04 singleton01=null;
+    private static Singleton04 singleton01 = null;
 
-  private Singleton04() {
-  }
-
-  /***
-   * 同步锁、效率低 方法级别的
-   * @return
-   */
-  public static synchronized  Singleton04 getSingleton01(){
-    if (null==singleton01){
-      singleton01=new Singleton04();
+    private Singleton04() {
     }
-    return singleton01;
 
-  }
-  final static Set set=new CopyOnWriteArraySet();
-  public static void main(String[] args) {
+    /***
+     * 同步锁、效率低 方法级别的
+     * @return
+     */
+    public static synchronized Singleton04 getSingleton01() {
+        if (null == singleton01) {
+            singleton01 = new Singleton04();
+        }
+        return singleton01;
 
-    TlUtil.timeTasks(100, 1, new Runnable() {
-      @Override
-      public void run() {
+    }
 
-        set.add(Singleton04.getSingleton01().hashCode());
-      }
-    });
-    System.out.println(set.size());
-  }
+    final static Set set = new CopyOnWriteArraySet();
+
+    public static void main(String[] args) {
+
+        TlUtil.timeTasks(100, 1, new Runnable() {
+            @Override
+            public void run() {
+
+                set.add(Singleton04.getSingleton01().hashCode());
+            }
+        });
+        System.out.println(set.size());
+    }
 }

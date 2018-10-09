@@ -5,25 +5,24 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 // new Thread(new MyMonitorThread((ThreadPoolExecutor) executorService,1)).start();
 
-public class MonitorThreadPoolUtil implements Runnable
-{
+public class MonitorThreadPoolUtil implements Runnable {
     private ThreadPoolExecutor executor;
     private int seconds;
-    private boolean run=true;
+    private boolean run = true;
 
-    public MonitorThreadPoolUtil(ThreadPoolExecutor executor, int delay)
-    {
+    public MonitorThreadPoolUtil(ThreadPoolExecutor executor, int delay) {
         this.executor = executor;
-        this.seconds=delay;
+        this.seconds = delay;
     }
-    public void shutdown(){
-        this.run=false;
+
+    public void shutdown() {
+        this.run = false;
     }
+
     @Override
-    public void run()
-    {
-        while(run){
-            if(this.executor.isTerminated()){
+    public void run() {
+        while (run) {
+            if (this.executor.isTerminated()) {
                 System.out.println("任务执行完成");
                 break;
             }
@@ -37,7 +36,7 @@ public class MonitorThreadPoolUtil implements Runnable
                             this.executor.isShutdown(),
                             this.executor.isTerminated()));
             try {
-                Thread.sleep(seconds*1000);
+                Thread.sleep(seconds * 1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

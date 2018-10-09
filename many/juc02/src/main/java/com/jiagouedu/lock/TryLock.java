@@ -23,42 +23,46 @@ public class TryLock implements Runnable {
 
     @Override
     public void run() {
-        if(lock == 1){
-            while (true){  //-----------------------------
-                if(lock1.tryLock()){
+        if (lock == 1) {
+            while (true) {  //-----------------------------
+                if (lock1.tryLock()) {
                     try {
                         try {
                             Thread.sleep(500);
-                        }catch (InterruptedException e){ }
-                        if(lock2.tryLock()){
+                        } catch (InterruptedException e) {
+                        }
+                        if (lock2.tryLock()) {
                             try {
-                                System.out.println(Thread.currentThread().getId() + " : My Job done");return;
-                            }finally {
+                                System.out.println(Thread.currentThread().getId() + " : My Job done");
+                                return;
+                            } finally {
                                 lock2.unlock();
                             }
                         }
 
-                    }finally {
+                    } finally {
                         lock1.unlock();
                     }
                 }
             }
-        }else {
-            while (true){
-                if(lock2.tryLock()){
+        } else {
+            while (true) {
+                if (lock2.tryLock()) {
                     try {
                         try {
                             Thread.sleep(500);
-                        }catch (InterruptedException e){ }
-                        if(lock1.tryLock()){
+                        } catch (InterruptedException e) {
+                        }
+                        if (lock1.tryLock()) {
                             try {
-                                System.out.println(Thread.currentThread().getId() + " : My Job done");return;
-                            }finally {
+                                System.out.println(Thread.currentThread().getId() + " : My Job done");
+                                return;
+                            } finally {
                                 lock1.unlock();
                             }
                         }
 
-                    }finally {
+                    } finally {
                         lock2.unlock();
                     }
                 }

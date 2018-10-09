@@ -50,9 +50,9 @@ public class FJRecursiveBenchmark {
     }
 
     @Benchmark
-    public int[]  singleThreadTask() {
+    public int[] singleThreadTask() {
         return MergeSortMain.sequentialSort(arrayToSortSingleThread, 100);
-     }
+    }
 
 
 }

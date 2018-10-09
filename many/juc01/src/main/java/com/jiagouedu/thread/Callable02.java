@@ -7,13 +7,11 @@ import java.util.concurrent.FutureTask;
 
 public class Callable02 implements Callable<String> {
 
-  @Override
-  public String call() throws Exception {
-      System.out.println("第二个call");
-    return "第二个call";
-  }
-
-
+    @Override
+    public String call() throws Exception {
+        System.out.println("第二个call");
+        return "第二个call";
+    }
 
 
 }

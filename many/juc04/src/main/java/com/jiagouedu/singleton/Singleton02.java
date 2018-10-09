@@ -26,29 +26,29 @@ import java.util.concurrent.CopyOnWriteArraySet;
 @ThreadNoSafe
 public class Singleton02 {
 
-  private static Singleton02 singleton01=null;
+    private static Singleton02 singleton01 = null;
 
-  private Singleton02() {
-  }
-
-  public static Singleton02 getSingleton01(){
-    if (null==singleton01){
-      singleton01=new Singleton02();
+    private Singleton02() {
     }
-    return singleton01;
 
-  }
+    public static Singleton02 getSingleton01() {
+        if (null == singleton01) {
+            singleton01 = new Singleton02();
+        }
+        return singleton01;
 
-  public static void main(String[] args) {
-    final Set set;
-    set = new CopyOnWriteArraySet();
-    TlUtil.timeTasks(100, 1, new Runnable() {
-      @Override
-      public void run() {
+    }
 
-        set.add(Singleton02.getSingleton01().hashCode());
-      }
-    });
-    System.out.println(set.size());
-  }
+    public static void main(String[] args) {
+        final Set set;
+        set = new CopyOnWriteArraySet();
+        TlUtil.timeTasks(100, 1, new Runnable() {
+            @Override
+            public void run() {
+
+                set.add(Singleton02.getSingleton01().hashCode());
+            }
+        });
+        System.out.println(set.size());
+    }
 }

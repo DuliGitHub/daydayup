@@ -17,27 +17,27 @@ public class Simple {
         });
     }
 
-    interface ITest{
+    interface ITest {
         int test(String string);
     }
-    static void Print(ITest test){
+
+    static void Print(ITest test) {
         test.test("hello world");
     }
 
 
-
-    private static void method1(){
+    private static void method1() {
         /**
          * Runnable有个注解 @FunctionalInterface，它是jdk8才引入，它的含义是函数接口。它是lambda表达式的协议注解，这个注解非常重要
          * **/
-        new Thread(()-> System.out.println("hello world")).start();
+        new Thread(() -> System.out.println("hello world")).start();
         //   ()-> System.out.println("hello world")
     }
 
-    private static void method2(){
+    private static void method2() {
         List<String> list = new ArrayList<>();
-        Collections.sort(list,((o1, o2) -> {
-            if (o1.equals(o2)){
+        Collections.sort(list, ((o1, o2) -> {
+            if (o1.equals(o2)) {
                 return 1;
             }
             return -1;

@@ -120,7 +120,7 @@ class Searcher<E> extends CountedCompleter<E> {
 
     @Override
     public void compute() {
-        int localStartIndex = startIndex,  localEndIndex = endIndex;
+        int localStartIndex = startIndex, localEndIndex = endIndex;
         while (result.get() == null && localEndIndex >= localStartIndex) {
             /**
              * If there are more than one element to check, we divide it until receiving
@@ -183,7 +183,7 @@ class Searcher<E> extends CountedCompleter<E> {
 
     @Override
     public String toString() {
-        return "Searcher {"+startIndex+"-"+endIndex+"}";
+        return "Searcher {" + startIndex + "-" + endIndex + "}";
     }
 }
 

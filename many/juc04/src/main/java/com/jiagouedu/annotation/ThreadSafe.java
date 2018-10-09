@@ -14,6 +14,7 @@ package com.jiagouedu.annotation;/*
  * www.jiagouedu.com
  * 悟空老师QQ：245553999
  */
+
 /***
  * 线程安全的
  */

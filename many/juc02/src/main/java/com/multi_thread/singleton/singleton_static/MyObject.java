@@ -6,11 +6,12 @@ public class MyObject {
     public MyObject() {
 
     }
+
     static {
         instance = new MyObject();
     }
 
-    public static MyObject getInstance(){
+    public static MyObject getInstance() {
         return instance;
     }
 }

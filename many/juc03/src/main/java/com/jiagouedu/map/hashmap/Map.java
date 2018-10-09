@@ -12,17 +12,19 @@ package com.jiagouedu.map.hashmap;/*
  * 　　　　　┗┻┛　┗┻┛
  */
 
-public interface Map<K,V> {
+public interface Map<K, V> {
 
-  public  V put(K k, V v);
-  public V get(K k);
-  public int size();
+    public V put(K k, V v);
 
-  interface Entry<K,V> {
-    K getKey();
-    V getValue();
-  }
+    public V get(K k);
 
+    public int size();
+
+    interface Entry<K, V> {
+        K getKey();
+
+        V getValue();
+    }
 
 
 }

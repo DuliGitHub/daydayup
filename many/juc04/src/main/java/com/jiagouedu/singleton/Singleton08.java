@@ -16,7 +16,6 @@ package com.jiagouedu.singleton;/*
  */
 
 
-
 import com.jiagouedu.annotation.ThreadSafe;
 import com.jiagouedu.util.TlUtil;
 
@@ -34,40 +33,43 @@ import java.util.concurrent.CopyOnWriteArraySet;
 public class Singleton08 {
 
 
-  private Singleton08(){
-  }
-  private enum SingletonEnum{
-     SINGLETON_ENUM;
-     private Singleton08 singleton08;
-     //jvm保证这个方法绝对的调用一次
-    SingletonEnum(){
-      singleton08=new Singleton08();
+    private Singleton08() {
     }
-    public Singleton08 getSingleton08(){
-      return  singleton08;
+
+    private enum SingletonEnum {
+        SINGLETON_ENUM;
+        private Singleton08 singleton08;
+
+        //jvm保证这个方法绝对的调用一次
+        SingletonEnum() {
+            singleton08 = new Singleton08();
+        }
+
+        public Singleton08 getSingleton08() {
+            return singleton08;
+        }
     }
-  }
 
 
-  public static Singleton08 getSingleton02(){
+    public static Singleton08 getSingleton02() {
 
-    return  SingletonEnum.SINGLETON_ENUM.getSingleton08();
-  }
+        return SingletonEnum.SINGLETON_ENUM.getSingleton08();
+    }
 
-  public static void main(String[] args) {
-      final Set set=new HashSet();
+    public static void main(String[] args) {
+        final Set set = new HashSet();
         TlUtil.timeTasks(1000, 100, new Runnable() {
-          @Override
-          public void run() {
-            set.add(Singleton08.getSingleton02().hashCode());
-          }
+            @Override
+            public void run() {
+                set.add(Singleton08.getSingleton02().hashCode());
+            }
         });
-    System.out.println(set.size());
-    Iterator iterator = set.iterator();
-    while(iterator.hasNext()){
-      System.out.println(iterator.next());
+        System.out.println(set.size());
+        Iterator iterator = set.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
     }
-  }
 
 
 }

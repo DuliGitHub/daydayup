@@ -24,23 +24,23 @@ import com.jiagouedu.util.TlUtil;
 @ThreadSafe
 public class Singleton01 {
 
-  private static  Singleton01 singleton01=new Singleton01();
+    private static Singleton01 singleton01 = new Singleton01();
 
-  private Singleton01() {
-  }
+    private Singleton01() {
+    }
 
-  public static  Singleton01 getSingleton01(){
-    return singleton01;
-  }
+    public static Singleton01 getSingleton01() {
+        return singleton01;
+    }
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    TlUtil.timeTasks(100, 1, new Runnable() {
-      @Override
-      public void run() {
+        TlUtil.timeTasks(100, 1, new Runnable() {
+            @Override
+            public void run() {
 
-        System.out.println(Singleton01.getSingleton01().hashCode());
-      }
-    });
-  }
+                System.out.println(Singleton01.getSingleton01().hashCode());
+            }
+        });
+    }
 }

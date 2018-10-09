@@ -8,18 +8,18 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class LikeSearch<T> {
 
-   private final CharColumn<T> [] columns=new CharColumn[Character.MAX_VALUE];
+    private final CharColumn<T>[] columns = new CharColumn[Character.MAX_VALUE];
 
-   public CharColumn<T>[] getColumns(){
-       return  columns;
-   }
+    public CharColumn<T>[] getColumns() {
+        return columns;
+    }
 
     private final ReentrantReadWriteLock rwl = new ReentrantReadWriteLock();
     private final Lock r = rwl.readLock();
     private final Lock w = rwl.writeLock();
 
-    public void put(T t,String value){
-      w.lock();
+    public void put(T t, String value) {
+        w.lock();
         char[] chars = value.toCharArray();
         for (int i = 0; i < chars.length; i++) {
             char c = chars[i];
@@ -34,21 +34,18 @@ public class LikeSearch<T> {
     }
 
 
-
     /**
      * 修改数据. <br>
      *
-     * @param id 主键id
+     * @param id       主键id
      * @param newValue 新字符串
      */
     public void update(T id, String newValue) {
 
-            remove(id);
-            put(id, newValue);
+        remove(id);
+        put(id, newValue);
 
     }
-
-
 
 
     /**
@@ -60,14 +57,14 @@ public class LikeSearch<T> {
      */
     public boolean remove(T id) {
 
-            boolean sign = false;
-            for (CharColumn<T> column : columns) {
-                if (column != null) {
-                    if (column.remove(id)) {
-                        sign = true;
-                    }
+        boolean sign = false;
+        for (CharColumn<T> column : columns) {
+            if (column != null) {
+                if (column.remove(id)) {
+                    sign = true;
                 }
             }
+        }
         return sign;
 
 
@@ -80,70 +77,72 @@ public class LikeSearch<T> {
      * @param limit
      * @return
      */
-    public Collection<T> search(String word,int limit){
+    public Collection<T> search(String word, int limit) {
 
-            char chars[]=word.toCharArray();
-            int n=word.length();
-            Context context=new Context();
-            for (int i=0;i<chars.length;i++){
-                CharColumn<T> column = columns[chars[i]];
-                if(column==null){
-                    break;
-                }
-                if(!context.filter(column)){
-                    break;
-                }
-                n--;
+        char chars[] = word.toCharArray();
+        int n = word.length();
+        Context context = new Context();
+        for (int i = 0; i < chars.length; i++) {
+            CharColumn<T> column = columns[chars[i]];
+            if (column == null) {
+                break;
             }
-            if(n==0){
-                return  context.limit(limit);
+            if (!context.filter(column)) {
+                break;
             }
-            return Collections.emptySet();
+            n--;
+        }
+        if (n == 0) {
+            return context.limit(limit);
+        }
+        return Collections.emptySet();
 
     }
 
-    private class  Context{
-        Map<T,byte[]> result;
-        boolean used=false;
-        private boolean filter(CharColumn<T> columns){
-            if(this.used==false){
-                this.result=new TreeMap<T, byte[]>(columns.poxIndex);
-                this.used=true;
+    private class Context {
+        Map<T, byte[]> result;
+        boolean used = false;
+
+        private boolean filter(CharColumn<T> columns) {
+            if (this.used == false) {
+                this.result = new TreeMap<T, byte[]>(columns.poxIndex);
+                this.used = true;
                 return true;
             }
-            boolean flag=false;
+            boolean flag = false;
             Map<T, byte[]> newResult = new TreeMap<T, byte[]>();
-            Set<Map.Entry<T,byte[]>> entrySet=columns.poxIndex.entrySet();
-            for(Map.Entry<T,byte[]> entry:entrySet){
-                T id=entry.getKey();
-                byte[] charPox=entry.getValue();
-                if(!result.containsKey(id)){
+            Set<Map.Entry<T, byte[]>> entrySet = columns.poxIndex.entrySet();
+            for (Map.Entry<T, byte[]> entry : entrySet) {
+                T id = entry.getKey();
+                byte[] charPox = entry.getValue();
+                if (!result.containsKey(id)) {
                     continue;
                 }
-                byte[] before= result.get(id);
-                boolean in=false;
-                for(byte pox:before){
-                    if(contain(charPox,(byte)(pox+1))){
-                        in=true;
+                byte[] before = result.get(id);
+                boolean in = false;
+                for (byte pox : before) {
+                    if (contain(charPox, (byte) (pox + 1))) {
+                        in = true;
                         break;
                     }
                 }
-                if(in){
-                    flag=true;
-                    newResult.put(id,charPox);
+                if (in) {
+                    flag = true;
+                    newResult.put(id, charPox);
                 }
             }
-            result=newResult;
+            result = newResult;
             return flag;
         }
-        public Collection<T> limit(int limit){
-            if(result.size()<=limit){
+
+        public Collection<T> limit(int limit) {
+            if (result.size() <= limit) {
                 return result.keySet();
             }
-            Collection<T> ids=new TreeSet<T>();
-            for(T id:result.keySet()){
+            Collection<T> ids = new TreeSet<T>();
+            for (T id : result.keySet()) {
                 ids.add(id);
-                if(ids.size()>=limit){
+                if (ids.size() >= limit) {
                     break;
                 }
             }
@@ -151,16 +150,17 @@ public class LikeSearch<T> {
         }
 
     }
- private class  CharColumn<T> {
+
+    private class CharColumn<T> {
 
 
         ConcurrentHashMap<T, byte[]> poxIndex = new ConcurrentHashMap<T, byte[]>();
 
-     /***
-      *
-      * @param t
-      * @param pox
-      */
+        /***
+         *
+         * @param t
+         * @param pox
+         */
         private void add(T t, byte pox) {
             byte[] arr = poxIndex.get(t);
             if (null == arr) {
@@ -171,14 +171,13 @@ public class LikeSearch<T> {
             poxIndex.put(t, arr);
 
         }
-         private boolean remove(T id) {
-             if (poxIndex.remove(id) != null) {
-                 return true;
-             }
-             return false;
-         }
 
-
+        private boolean remove(T id) {
+            if (poxIndex.remove(id) != null) {
+                return true;
+            }
+            return false;
+        }
 
 
     }
@@ -199,6 +198,6 @@ public class LikeSearch<T> {
 
     private static boolean contain(byte[] arr, byte value) {
         int pox = Arrays.binarySearch(arr, value);
-        return (pox >=0) ? true : false;
+        return (pox >= 0) ? true : false;
     }
 }

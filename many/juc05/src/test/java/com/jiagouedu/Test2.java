@@ -23,8 +23,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Test2 {
-   public static void main(String[] args) throws ExecutionException, InterruptedException {
-     ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(0, 1, new LinkedBlockingQueue<>());
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(0, 1, new LinkedBlockingQueue<>());
 /*      for (int i=0;i<10;i++) {
          Future<Object> future = threadPoolExecutor.submit(new Runnable() {
             @Override
@@ -35,19 +35,19 @@ public class Test2 {
 
 
       }*/
-      for (int i=0;i<10;i++) {
-         Future<Object> future = threadPoolExecutor.submit(new Callable() {
-            @Override
-            public Object call() throws Exception {
-               return "悟空活好人帅";
-            }
-         });
-         System.out.println(future.get());
+        for (int i = 0; i < 10; i++) {
+            Future<Object> future = threadPoolExecutor.submit(new Callable() {
+                @Override
+                public Object call() throws Exception {
+                    return "悟空活好人帅";
+                }
+            });
+            System.out.println(future.get());
 
 
-      }
+        }
 
-   }
+    }
 
 
 }

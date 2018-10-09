@@ -27,20 +27,21 @@ public class UserManagerImplProxy implements UserManager {
 
     // 目标对象
     private UserManager userManager;
+
     // 通过构造方法传入目标对象
-    public UserManagerImplProxy(UserManager userManager){
-        this.userManager=userManager;
+    public UserManagerImplProxy(UserManager userManager) {
+        this.userManager = userManager;
     }
 
     public void addUser(String userId, String userName) {
-        try{
+        try {
             //添加打印日志的功能
             //开始添加用户
             System.out.println("start-->addUser()");
             userManager.addUser(userId, userName);
             //添加用户成功
             System.out.println("success-->addUser()");
-        }catch(Exception e){
+        } catch (Exception e) {
             //添加用户失败
             System.out.println("error-->addUser()");
         }
@@ -57,6 +58,6 @@ public class UserManagerImplProxy implements UserManager {
     }
 
     public void modifyUser(String userId, String userName) {
-        userManager.modifyUser(userId,userName);
+        userManager.modifyUser(userId, userName);
     }
 }

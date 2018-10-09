@@ -5,13 +5,15 @@ import sun.awt.SunHints;
 //生产者
 public class P {
     private String lock;
-    public P(String lock){
+
+    public P(String lock) {
         this.lock = lock;
     }
-    public void setValue(){
-        try{
-            synchronized (lock){
-                while (!ValueObject.value.equals("")){
+
+    public void setValue() {
+        try {
+            synchronized (lock) {
+                while (!ValueObject.value.equals("")) {
                     System.out.println("生产者 " + Thread.currentThread().getName() + " WAITING 了 **");
                     lock.wait();
                 }
@@ -21,7 +23,7 @@ public class P {
 //                lock.notify();
                 lock.notifyAll();
             }
-        }catch (InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }

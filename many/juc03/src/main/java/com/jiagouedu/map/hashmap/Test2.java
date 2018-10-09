@@ -14,7 +14,7 @@ package com.jiagouedu.map.hashmap;/*
 
 public class Test2 {
 
-  public static void main(String[] args) {
-    System.out.println("wukong".hashCode()%16 );
-  }
+    public static void main(String[] args) {
+        System.out.println("wukong".hashCode() % 16);
+    }
 }

@@ -35,8 +35,8 @@ class LongSum extends RecursiveTask<Long> {
             for (int i = low; i < high; ++i) {
                 sum += array[i];
                 // for non-trivial work
-                 // if (extraWork)
-                 //Utils.doCpuIntensiveCalculation();
+                // if (extraWork)
+                //Utils.doCpuIntensiveCalculation();
             }
 
             return sum;

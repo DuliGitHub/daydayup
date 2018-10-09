@@ -16,7 +16,6 @@ package com.jiagouedu.singleton;/*
  */
 
 
-
 import com.jiagouedu.util.TlUtil;
 
 import java.util.HashSet;
@@ -32,29 +31,30 @@ import java.util.concurrent.CopyOnWriteArraySet;
 public class Singleton07 {
 
 
-  private Singleton07(){
-  }
-  private static class  SingletonInner{
-     private static  final Singleton07 singleton02=new Singleton07();
-  }
+    private Singleton07() {
+    }
+
+    private static class SingletonInner {
+        private static final Singleton07 singleton02 = new Singleton07();
+    }
 
 
-  public static   Singleton07 getSingleton02(){
+    public static Singleton07 getSingleton02() {
 
-    return  SingletonInner.singleton02;
-  }
+        return SingletonInner.singleton02;
+    }
 
-  public static void main(String[] args) {
-      final Set set=new CopyOnWriteArraySet();
+    public static void main(String[] args) {
+        final Set set = new CopyOnWriteArraySet();
         TlUtil.timeTasks(1000, 100, new Runnable() {
-          @Override
-          public void run() {
-            set.add(Singleton07.getSingleton02().hashCode());
-          }
+            @Override
+            public void run() {
+                set.add(Singleton07.getSingleton02().hashCode());
+            }
         });
-    System.out.println(set.size());
+        System.out.println(set.size());
 
-  }
+    }
 
 
 }

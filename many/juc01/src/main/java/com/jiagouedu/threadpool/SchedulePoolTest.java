@@ -24,16 +24,16 @@ import java.util.concurrent.TimeUnit;
 public class SchedulePoolTest {
 
     public static void main(String[] args) {
-       ScheduledExecutorService scheduledExecutorService= Executors.newScheduledThreadPool(10);
+        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(10);
        /*  scheduledExecutorService.submit(new Runnable() {
             @Override
             public void run() {
                 System.out.println("悟空是只猴子");
             }
         });*/
-        scheduledExecutorService.schedule(()->{
+        scheduledExecutorService.schedule(() -> {
             System.out.println("5");
-        },5,TimeUnit.SECONDS);
+        }, 5, TimeUnit.SECONDS);
 
         /*scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
             @Override

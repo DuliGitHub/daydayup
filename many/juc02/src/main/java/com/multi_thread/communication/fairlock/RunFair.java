@@ -11,10 +11,10 @@ public class RunFair {
         };
 
         Thread[] threads = new Thread[10];
-        for (int i = 0;i < 10;i++){
+        for (int i = 0; i < 10; i++) {
             threads[i] = new Thread(runnable);
         }
-        for (int i = 0;i < 10;i++){
+        for (int i = 0; i < 10; i++) {
             threads[i].start();
         }
 

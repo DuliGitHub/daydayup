@@ -8,31 +8,31 @@ import java.util.stream.IntStream;
  * 设置时间
  */
 public class ReentrantLock04 implements Runnable {
-	public static ReentrantLock reentrantLock = new ReentrantLock();
+    public static ReentrantLock reentrantLock = new ReentrantLock();
 
-	@Override
-	public void run() {
-		try {
-			if (reentrantLock.tryLock(5, TimeUnit.SECONDS)) { //tryLock 5秒如果没有等方法执行完，就不等了
-				Thread.sleep(6000); //调这个时间===========
-				System.out.println("获取");
-			} else {
-				System.out.println("获取失败");
-			}
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} finally {
-			if(reentrantLock.isHeldByCurrentThread()) {// 不加这个条件会报错 getHoldCount()方法来检查当前线程是否拥有该锁
-				reentrantLock.unlock();//没有获取锁就不需要解锁
-			}
-		}
-	}
+    @Override
+    public void run() {
+        try {
+            if (reentrantLock.tryLock(5, TimeUnit.SECONDS)) { //tryLock 5秒如果没有等方法执行完，就不等了
+                Thread.sleep(6000); //调这个时间===========
+                System.out.println("获取");
+            } else {
+                System.out.println("获取失败");
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            if (reentrantLock.isHeldByCurrentThread()) {// 不加这个条件会报错 getHoldCount()方法来检查当前线程是否拥有该锁
+                reentrantLock.unlock();//没有获取锁就不需要解锁
+            }
+        }
+    }
 
-	public static void main(String[] args) {
-		ReentrantLock04 reentrantLock03 = new ReentrantLock04();
-		IntStream.range(0,2).forEach(i->new Thread(reentrantLock03){
+    public static void main(String[] args) {
+        ReentrantLock04 reentrantLock03 = new ReentrantLock04();
+        IntStream.range(0, 2).forEach(i -> new Thread(reentrantLock03) {
 
-		}.start());
+        }.start());
 
-	}
+    }
 }
