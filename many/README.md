@@ -97,5 +97,5 @@
 
 - 如果采用Object类中的wait(), notify(), notifyAll()实现该缓冲区，当向缓冲区写入数据之后需要唤醒"读线程"时，
 不可能通过notify()或notifyAll()明确的指定唤醒"读线程"，而只能通过notifyAll唤醒所有线程(但是notifyAll无法区分唤醒的线程是读线程，还是写线程)。
-  但是，通过Condition，就能明确的指定唤醒读线程。
+但是，通过Condition，就能明确的指定唤醒读线程。
 

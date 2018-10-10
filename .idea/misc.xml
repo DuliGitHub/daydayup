@@ -74,11 +74,11 @@
         <option value="$PROJECT_DIR$/many/juc04/pom.xml" />
         <option value="$PROJECT_DIR$/many/juc05/pom.xml" />
         <option value="$PROJECT_DIR$/many/juc06/pom.xml" />
-        <option value="$PROJECT_DIR$/many/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/many/geektime/pom.xml" />
         <option value="$PROJECT_DIR$/netty/oio/pom.xml" />
         <option value="$PROJECT_DIR$/netty/test/pom.xml" />
       </set>
