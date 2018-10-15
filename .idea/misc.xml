@@ -3,8 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/swagger2/pom.xml" />
-        <option value="$PROJECT_DIR$/swagger1/pom.xml" />
         <option value="$PROJECT_DIR$/monster/pom.xml" />
         <option value="$PROJECT_DIR$/monster/ms-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/monster/ms-provider-user/pom.xml" />

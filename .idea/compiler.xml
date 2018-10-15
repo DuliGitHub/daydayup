@@ -78,8 +78,6 @@
         <module name="redis-mybatis" />
         <module name="sleuth" />
         <module name="spring-boot-admin" />
-        <module name="swagger1" />
-        <module name="swagger2" />
         <module name="trace-zipkin-server" />
         <module name="trace-zipkin-server-elasticsearch" />
         <module name="transmission" />
