@@ -14,7 +14,7 @@ public class Recursion {
     // 全局变量，表示递归的深度。
     int depth = 0;
 
-    int f1(int n) throws Exception{
+    int f1(int n) throws Exception {
         ++depth;
         if (depth > 1000) throw new Exception();
 
@@ -23,9 +23,10 @@ public class Recursion {
     }
 
     //避免重复计算
-    public int f3(int n) {
-        if (n == 1) return 1;
-        if (n == 2) return 2;
+//    public int f3(int n) {
+//        if (n == 1) return 1;
+//        if (n == 2) return 2;
+//        int ret;
 
         // hasSolvedList 可以理解成一个 Map，key 是 n，value 是 f(n)
 //        if (hasSolvedList.containsKey(n)) {
@@ -35,6 +36,6 @@ public class Recursion {
 //        int ret = f(n-1) + f(n-2);
 //        hasSovledList.put(n, ret);
 //        return ret;
-    }
-
+//    }
 }
+
