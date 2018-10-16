@@ -15,20 +15,41 @@ public class ArrayQueue {
         n = capacity;
     }
 
-    // 入队
+//    // 入队
+//    public boolean enqueue(String item) {
+//        // 如果 tail == n 表示队列已经满了
+//        if (tail == n) return false;
+//        items[tail] = item;
+//        ++tail;
+//        return true;
+//    }
+
+    // 入队操作，将 item 放入队尾
     public boolean enqueue(String item) {
-        // 如果 tail == n 表示队列已经满了
-        if (tail == n) return false;
+        // tail == n 表示队列末尾没有空间了
+        if (tail == n) {
+            // tail ==n && head==0，表示整个队列都占满了
+            if (head == 0) return false;
+            // 数据搬移
+            for (int i = head; i < tail; ++i) {
+                items[i-head] = items[i];
+            }
+            // 搬移完之后重新更新 head 和 tail
+            tail -= head;
+            head = 0;
+        }
+
         items[tail] = item;
         ++tail;
         return true;
     }
 
+
     // 出队
     public String dequeue() {
         // 如果 head == tail 表示队列为空
         if (head == tail) return null;
-       
+
         String ret = items[head];
         ++head;
         return ret;
