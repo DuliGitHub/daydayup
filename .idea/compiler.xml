@@ -82,6 +82,7 @@
         <module name="trace-zipkin-server-elasticsearch" />
         <module name="transmission" />
         <module name="validate-test" />
+        <module name="y-aop" />
         <module name="zuul" />
         <module name="zuul-eureka-server" />
         <module name="zuul-provider-user" />
@@ -106,6 +107,7 @@
       <module name="consumer-order-trace" target="1.8" />
       <module name="consumer-order-trace-zipkin" target="1.8" />
       <module name="cookie" target="1.8" />
+      <module name="d-aop" target="1.5" />
       <module name="eureka-server (1) (com.dl)" target="1.8" />
       <module name="eureka-server (2) (com.zuul)" target="1.8" />
       <module name="eureka-server-ha" target="1.8" />
@@ -124,8 +126,8 @@
       <module name="juc-01" target="1.8" />
       <module name="juc02" target="1.8" />
       <module name="juc03" target="1.8" />
-      <module name="juc04" target="8" />
-      <module name="juc05" target="8" />
+      <module name="juc04" target="1.7" />
+      <module name="juc05" target="1.7" />
       <module name="juc06" target="1.8" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
@@ -161,6 +163,7 @@
       <module name="trace-zipkin-server-elasticsearch" target="1.8" />
       <module name="transmission" target="1.8" />
       <module name="validate-test" target="1.8" />
+      <module name="y-aop" target="1.7" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -61,6 +61,7 @@
     <file url="file://$PROJECT_DIR$/swagger1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/validate-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul/consumer-order-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul/eureka-server" charset="UTF-8" />

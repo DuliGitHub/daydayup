@@ -77,6 +77,7 @@
       <module fileurl="file://$PROJECT_DIR$/sleuth/trace-zipkin-server-elasticsearch/trace-zipkin-server-elasticsearch.iml" filepath="$PROJECT_DIR$/sleuth/trace-zipkin-server-elasticsearch/trace-zipkin-server-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/transmission/transmission.iml" filepath="$PROJECT_DIR$/netty/transmission/transmission.iml" />
       <module fileurl="file://$PROJECT_DIR$/validate-test/validate-test.iml" filepath="$PROJECT_DIR$/validate-test/validate-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/y-aop/y-aop.iml" filepath="$PROJECT_DIR$/y-aop/y-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
