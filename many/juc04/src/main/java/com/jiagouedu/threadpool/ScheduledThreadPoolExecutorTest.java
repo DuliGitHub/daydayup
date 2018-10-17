@@ -10,9 +10,13 @@ public class ScheduledThreadPoolExecutorTest {
 
     public static void main(String[] args) {
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(10);
-/*    executorService.schedule(()->{
-      System.out.println("5");
-    },5, TimeUnit.SECONDS);*/
+
+
+//   executorService.schedule(()->{
+//      System.out.println("5");
+//    },5, TimeUnit.SECONDS);
+
+
         executorService.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {

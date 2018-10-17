@@ -124,8 +124,8 @@
       <module name="juc-01" target="1.8" />
       <module name="juc02" target="1.8" />
       <module name="juc03" target="1.8" />
-      <module name="juc04" target="1.7" />
-      <module name="juc05" target="1.7" />
+      <module name="juc04" target="8" />
+      <module name="juc05" target="8" />
       <module name="juc06" target="1.8" />
       <module name="monster" target="1.8" />
       <module name="ms-cinsumer-order-ribbon" target="1.8" />
@@ -157,8 +157,6 @@
       <module name="saga" target="1.8" />
       <module name="sleuth" target="1.8" />
       <module name="spring-boot-admin" target="1.5" />
-      <module name="swagger1" target="1.8" />
-      <module name="swagger2" target="1.8" />
       <module name="trace-zipkin-server" target="1.8" />
       <module name="trace-zipkin-server-elasticsearch" target="1.8" />
       <module name="transmission" target="1.8" />

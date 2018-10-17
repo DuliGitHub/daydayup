@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/zuul/gateway-zuul-aggregation/gateway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/zuul/gateway-zuul-aggregation/gateway-zuul-aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/gateway-zuul-fallback/gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/zuul/gateway-zuul-fallback/gateway-zuul-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/gateway-zuul-filter/gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/zuul/gateway-zuul-filter/gateway-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many/geektime/geektime.iml" filepath="$PROJECT_DIR$/many/geektime/geektime.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_main.iml" group="gradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_test.iml" group="gradle" />
