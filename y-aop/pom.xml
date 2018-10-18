@@ -31,6 +31,13 @@
       <artifactId>spring-context</artifactId>
       <version>5.0.8.RELEASE</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
