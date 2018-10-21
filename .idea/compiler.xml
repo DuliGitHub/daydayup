@@ -67,6 +67,7 @@
         <module name="ms-provider-user-api" />
         <module name="netty_" />
         <module name="nettyclient" />
+        <module name="ninja" />
         <module name="provider-user" />
         <module name="provider-user (1) (com.dl)" />
         <module name="provider-user (2) (com.zuul)" />
@@ -147,6 +148,7 @@
       <module name="netty" target="1.5" />
       <module name="netty_" target="1.8" />
       <module name="nettyclient" target="1.8" />
+      <module name="ninja" target="1.7" />
       <module name="nio" target="1.5" />
       <module name="provider-user (1) (com.dl)" target="1.8" />
       <module name="provider-user (2) (com.zuul)" target="1.8" />

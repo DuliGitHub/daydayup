@@ -60,6 +60,7 @@
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-server/netty_.iml" filepath="$PROJECT_DIR$/netty/netty-server/netty_.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-client/nettyclient.iml" filepath="$PROJECT_DIR$/netty/netty-client/nettyclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja/ninja.iml" filepath="$PROJECT_DIR$/ninja/ninja.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix2/provider-user/provider-user (1) (com.dl).iml" filepath="$PROJECT_DIR$/hystrix2/provider-user/provider-user (1) (com.dl).iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" filepath="$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" />
