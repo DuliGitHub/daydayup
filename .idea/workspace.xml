@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ninja/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ninja/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key.md" beforeDir="false" afterPath="$PROJECT_DIR$/key.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
@@ -147,11 +146,12 @@
     <session id="-1258984054">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -161,16 +161,16 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="94" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="101" />
           <entry key="jsp" value="1" />
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="properties" value="2" />
           <entry key="xml" value="11" />
           <entry key="yml" value="3" />
@@ -179,10 +179,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="94" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="101" />
           <entry key="JSP" value="1" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="3" />
@@ -191,12 +191,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="466" />
+          <entry key="md" value="142" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="466" />
+          <entry key="Markdown" value="142" />
           <entry key="XML" value="76" />
         </counts>
       </usages-collector>
@@ -204,14 +206,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/OOMTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="240">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/ReferenceCountingGc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/StackOverflowTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/TestJDKClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/DeadLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/GCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -621,7 +677,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/many/juc02/src/main/java/com/jiagouedu/countdownlatch/CountDownLatchJoin.java" />
         <option value="$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/singleton/Singleton01.java" />
         <option value="$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/util/TlUtil.java" />
         <option value="$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/Executor.java" />
@@ -672,6 +727,7 @@
         <option value="$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/StackOverflowTest.java" />
         <option value="$PROJECT_DIR$/ninja/pom.xml" />
         <option value="$PROJECT_DIR$/y-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/key.md" />
       </list>
     </option>
   </component>
@@ -699,9 +755,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-240" />
+    <option name="y" value="42" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -713,67 +769,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kawasaki" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kawasaki" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
               <item name="y-aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -786,11 +787,27 @@
               <item name="y-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="y-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="y-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -802,7 +819,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540133890256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540220828555" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/xbin-store-cloud/build.gradle" />
@@ -855,7 +872,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OOMTest">
+  <component name="RunManager" selected="Application.TestJDKClassLoader">
     <configuration name="OOMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kawasaki.jvm.OOMTest" />
       <module name="ninja" />
@@ -913,13 +930,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="web_socket.WebSocketServer" />
-      <module name="netty_" />
+    <configuration name="TestJDKClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kawasaki.jvm.TestJDKClassLoader" />
+      <module name="ninja" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web_socket.*" />
+          <option name="PATTERN" value="com.kawasaki.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1364,19 +1381,19 @@
       <item itemvalue="Spring Boot.MsConsumerOrderRibbonHystrixFusingApplication" />
       <item itemvalue="Spring Boot.MsEurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.RedisCacheApplication" />
-      <item itemvalue="Application.WebSocketServer" />
       <item itemvalue="Application.ScheduledThreadPoolExecutorTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.StackOverflowTest" />
       <item itemvalue="Application.OOMTest" />
+      <item itemvalue="Application.TestJDKClassLoader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJDKClassLoader" />
         <item itemvalue="Application.OOMTest" />
         <item itemvalue="Application.StackOverflowTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ScheduledThreadPoolExecutorTest" />
-        <item itemvalue="Application.WebSocketServer" />
       </list>
     </recent_temporary>
   </component>
@@ -1464,7 +1481,8 @@
       <workItem from="1539780755583" duration="6533000" />
       <workItem from="1539868748078" duration="747000" />
       <workItem from="1539957725780" duration="1275000" />
-      <workItem from="1540121314627" duration="1965000" />
+      <workItem from="1540121314627" duration="2345000" />
+      <workItem from="1540216762285" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1509,10 +1527,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277776000" />
+    <option name="totallyTimeSpent" value="282181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-240" y="42" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -1522,7 +1540,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1684435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39687848" />
@@ -1537,7 +1555,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.56774914" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32887402" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.27201784" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.32218507" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32998884" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1684,27 +1702,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent2/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent2/AbstarctExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1934,13 +1931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1975,24 +1965,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/TestJDKClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/y-aop/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="-504">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninja/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc04/juc04.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many/juc03/juc03.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/DeadLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="-60">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/User.java">
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/GCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/OOMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2010,34 +2037,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/GCTest.java">
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/TestJDKClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/y-aop/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/OOMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
