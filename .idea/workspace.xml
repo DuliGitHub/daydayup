@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22e3395d-5786-41c6-af7d-96d956ae81d3" name="Default" comment="http协议">
+      <change afterPath="$PROJECT_DIR$/Redis.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.md" beforeDir="false" afterPath="$PROJECT_DIR$/key.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/config/config-client-refresh/target/" />
@@ -158,10 +158,11 @@
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -170,7 +171,7 @@
           <entry key="iml" value="4" />
           <entry key="java" value="101" />
           <entry key="jsp" value="1" />
-          <entry key="md" value="5" />
+          <entry key="md" value="6" />
           <entry key="properties" value="2" />
           <entry key="xml" value="11" />
           <entry key="yml" value="3" />
@@ -182,7 +183,7 @@
           <entry key="IDEA_MODULE" value="4" />
           <entry key="JAVA" value="101" />
           <entry key="JSP" value="1" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="6" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="3" />
@@ -191,14 +192,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="466" />
-          <entry key="md" value="142" />
+          <entry key="md" value="468" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="466" />
-          <entry key="Markdown" value="142" />
+          <entry key="Markdown" value="468" />
           <entry key="XML" value="76" />
         </counts>
       </usages-collector>
@@ -209,7 +210,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/OOMTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="180">
               <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -231,7 +232,7 @@
         <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/StackOverflowTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -245,11 +246,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Redis.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="712">
+                <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -257,8 +270,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/DeadLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -677,7 +690,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/singleton/Singleton01.java" />
         <option value="$PROJECT_DIR$/many/juc04/src/main/java/com/jiagouedu/util/TlUtil.java" />
         <option value="$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/Executor.java" />
         <option value="$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent/ThreadPoolExecutor.java" />
@@ -728,6 +740,7 @@
         <option value="$PROJECT_DIR$/ninja/pom.xml" />
         <option value="$PROJECT_DIR$/y-aop/pom.xml" />
         <option value="$PROJECT_DIR$/key.md" />
+        <option value="$PROJECT_DIR$/Redis.md" />
       </list>
     </option>
   </component>
@@ -756,8 +769,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-240" />
-    <option name="y" value="42" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -769,7 +782,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -807,7 +820,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -832,14 +845,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.dl.rediscache.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rainbow\many" />
-      <recent name="D:\rainbow\" />
-      <recent name="D:\daydayup\gradle" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.multi_thread.singleton.singleton_1" />
       <recent name="com.multi_thread.communication.read_write_lock" />
@@ -848,11 +853,19 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rainbow" />
       <recent name="D:\rainbow\many\juc02\src\main\java\com\multi_thread\singleton\singleton_static" />
       <recent name="D:\rainbow\many\juc02\src\main\java\com\multi_thread\singleton\singleton_3_dcl" />
       <recent name="D:\rainbow\many\juc02\src\main\java\com\multi_thread\singleton" />
       <recent name="D:\rainbow\many\juc01" />
-      <recent name="D:\rainbow" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rainbow\many" />
+      <recent name="D:\rainbow\" />
+      <recent name="D:\daydayup\gradle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1483,6 +1496,7 @@
       <workItem from="1539957725780" duration="1275000" />
       <workItem from="1540121314627" duration="2345000" />
       <workItem from="1540216762285" duration="4025000" />
+      <workItem from="1540301240240" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="http协议">
       <created>1534262345896</created>
@@ -1527,10 +1541,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282181000" />
+    <option name="totallyTimeSpent" value="286555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-240" y="42" width="1936" height="1056" extended-state="0" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -1540,7 +1554,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1684435" />
+      <window_info content_ui="combo" id="Project" order="7" weight="0.17004265" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39687848" />
@@ -1702,13 +1716,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent2/AbstarctExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/many/juc05/src/main/java/com/jiagouedu/concurrent2/ExecutorServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1999,23 +2006,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/DeadLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/GCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/OOMTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="180">
           <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2033,7 +2026,7 @@
     <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/StackOverflowTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -2044,10 +2037,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/DeadLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/GCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ninja/src/main/java/com/kawasaki/jvm/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="712">
+            <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
