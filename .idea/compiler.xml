@@ -108,7 +108,6 @@
       <module name="consumer-order-trace" target="1.8" />
       <module name="consumer-order-trace-zipkin" target="1.8" />
       <module name="cookie" target="1.8" />
-      <module name="d-aop" target="1.5" />
       <module name="eureka-server (1) (com.dl)" target="1.8" />
       <module name="eureka-server (2) (com.zuul)" target="1.8" />
       <module name="eureka-server-ha" target="1.8" />
@@ -116,7 +115,7 @@
       <module name="gateway-zuul-aggregation" target="1.8" />
       <module name="gateway-zuul-fallback" target="1.8" />
       <module name="gateway-zuul-filter" target="1.8" />
-      <module name="geektime" target="1.5" />
+      <module name="geektime" target="8" />
       <module name="gradle_main" target="1.8" />
       <module name="gradle_test" target="1.8" />
       <module name="hystrix" target="1.8" />
