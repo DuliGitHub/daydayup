@@ -19,9 +19,19 @@ public class InsertionSort {
             return;
         }
 
+
         for(int i = 1;i < n; ++ i){
             int value = a[i];
             int j = i - 1;
+
+            /** 冒泡排序的数据交换比擦入排序的数据移动要复杂 3 ：1
+            if(a[j] > a[j+1]){
+                int tmp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = tmp;
+            }
+             **/
+
             //查找插入的位置
             for(; j >= 0; --j){
                 if(a[j] > value){
@@ -33,4 +43,6 @@ public class InsertionSort {
             a[j+1] = value;
         }
     }
+
+
 }
