@@ -2,27 +2,6 @@ package staticproxy.proxy;
 
 import staticproxy.UserManager;
 
-/**
- * ━━━━━━如来保佑━━━━━━
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- *
- * @author Ledev4
- * @date 2018/6/23 17:46 星期六
- */
-
-
 public class UserManagerImplProxy implements UserManager {
 
     // 目标对象

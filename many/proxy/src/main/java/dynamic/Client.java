@@ -3,25 +3,6 @@ package dynamic;
 import dynamic.impl.UserManagerImpl;
 import dynamic.proxy.LogHandler;
 
-/**
- * ━━━━━━如来保佑━━━━━━
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- *
- * @author Ledev4
- * @date 2018/6/23 18:16 星期六
- */
 
 
 public class Client {

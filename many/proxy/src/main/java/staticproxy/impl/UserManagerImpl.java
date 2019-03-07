@@ -2,26 +2,6 @@ package staticproxy.impl;
 
 import staticproxy.UserManager;
 
-/**
- * ━━━━━━如来保佑━━━━━━
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- *
- * @author Ledev4
- * @date 2018/6/23 17:44 星期六
- */
-
 
 public class UserManagerImpl implements UserManager {
 
