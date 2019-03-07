@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ninja" />
     <file type="web" url="file://$PROJECT_DIR$/y-aop" />
   </component>
   <component name="MavenProjectsManager">
@@ -76,6 +77,7 @@
         <option value="$PROJECT_DIR$/many/juc05/pom.xml" />
         <option value="$PROJECT_DIR$/many/juc06/pom.xml" />
         <option value="$PROJECT_DIR$/y-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/ninja/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
