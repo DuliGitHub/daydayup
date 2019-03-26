@@ -34,7 +34,8 @@ public class ThreadPoolTest {
 //        System.out.println(task.get());
         //-----------------------------------
 //        executorService.shutdown();
-        new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService, 1)).start();
+
+//        new Thread(new MonitorThreadPoolUtil((ThreadPoolExecutor) executorService, 1)).start();
 
 
         executorService.execute(

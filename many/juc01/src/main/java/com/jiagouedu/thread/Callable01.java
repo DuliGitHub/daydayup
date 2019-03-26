@@ -15,7 +15,7 @@ public class Callable01 implements Callable<String> {
 //          Thread.sleep(1000);
 //
 //      }
-        System.out.println("第一个call");
+//        System.out.println("第一个call");
         return "第一个call";
     }
 
@@ -26,7 +26,8 @@ public class Callable01 implements Callable<String> {
         new Thread(task).start();
         new Thread(task2).start();
         Thread.sleep(1000);
-        System.out.println(task2.get());
+        System.out.println(task.get());
+        System.out.println(task2.get());//会阻塞
         System.out.println(task.get());
 
 

@@ -62,6 +62,7 @@ public class Condition01 {
                 }
             }
         } finally {
+            System.out.println("finally");
             lock.unlock();
         }
     }
@@ -86,6 +87,7 @@ public class Condition01 {
             }
 
         } finally {
+            System.out.println("finally");
             lock.unlock();
         }
     }

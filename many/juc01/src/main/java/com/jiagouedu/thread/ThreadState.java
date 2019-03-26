@@ -46,7 +46,9 @@ public class ThreadState {
     // 该线程在Blocked.class实例上加锁后，不会释放该锁
     static class Blocked implements Runnable {
         public void run() {
+            System.out.println("等待进入-----------------");
             synchronized (Blocked.class) {
+                System.out.println("进入-----------------");
                 while (true) {
                     second(100);
                 }
