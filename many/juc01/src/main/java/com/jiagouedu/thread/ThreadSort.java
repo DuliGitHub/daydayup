@@ -8,25 +8,41 @@ public class ThreadSort {
 
     public static void main(String[] args) throws InterruptedException {
         Thread thread1 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("thread1");
 
         });
         Thread thread2 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("thread2");
 
         });
         Thread thread3 = new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("thread3");
 
         });
         thread1.start();
-        Thread.sleep(1000);
-//    thread1.join();//阻塞主线程
+//        Thread.sleep(1000);
+        thread1.join();//阻塞主线程
         thread2.start();
-        Thread.sleep(1000);
-//    thread2.join();
+//        Thread.sleep(1000);
+        thread2.join();
         thread3.start();
-//    thread3.join();
+        thread3.join();
+        System.out.println("end");
 
 
     }

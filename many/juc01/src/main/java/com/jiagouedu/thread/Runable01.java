@@ -1,16 +1,4 @@
-package com.jiagouedu.thread;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.thread;
 
 public class Runable01 implements Runnable {
 

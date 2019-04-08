@@ -9,7 +9,8 @@ public class Callable02 implements Callable<String> {
 
     @Override
     public String call() throws Exception {
-        System.out.println("第二个call");
+//        System.out.println("第二个call");
+        Thread.sleep(4000);
         return "第二个call";
     }
 
