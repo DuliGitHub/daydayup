@@ -1,3 +1,12 @@
+server:
+  port: 8080
+
 spring:
   profiles:
     active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+mybatis:
+  mapperLocations: classpath:mappers/**/*.xml
+  configLocation: classpath:mybatis.xml

@@ -18,11 +18,12 @@ public class ProductController {
         return productMapper.select(productId);
     }
 
-    @PutMapping("/{id}")
-    public Product updateProductInfo(@PathVariable("id") Long productId,@RequestBody Product newProduct){
-        Product product = productMapper.select(productId);
+
+    @RequestMapping(value = "update",method = RequestMethod.POST)
+    public Product updateProductInfo(@RequestBody Product newProduct){
+        Product product = productMapper.select(1);
         if (product == null) {
-            throw new ProductNotFoundException(productId);
+            throw new ProductNotFoundException(1);
         }
         product.setName(newProduct.getName());
         product.setPrice(newProduct.getPrice());

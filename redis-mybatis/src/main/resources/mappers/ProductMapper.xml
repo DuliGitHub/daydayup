@@ -7,11 +7,11 @@
     <!-- 开启基于redis的二级缓存 -->
     <cache type="com.dl.redismybatis.cache.RedisCache"/>
 
-    <select id="select" resultType="Product">
+    <select id="select" resultType="com.dl.redismybatis.entity.Product">
        SELECT * FROM products WHERE id = #{id} LIMIT 1
    </select>
 
-    <update id="update" parameterType="Product" flushCache="true">
+    <update id="update" parameterType="com.dl.redismybatis.entity.Product" flushCache="true">
        UPDATE products SET name = #{name}, price = #{price} WHERE id = #{id} LIMIT 1
    </update>
 </mapper>

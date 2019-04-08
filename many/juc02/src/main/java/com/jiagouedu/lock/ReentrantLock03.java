@@ -1,16 +1,4 @@
-package com.jiagouedu.lock;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

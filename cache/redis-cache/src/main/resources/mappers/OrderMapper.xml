@@ -5,7 +5,7 @@
 <mapper namespace="com.dl.rediscache.dao.OrderDao">
 
     <!-- 开启基于redis的二级缓存 -->
-    <!--<cache type="com.dl.redismybatis.cache.RedisCache"/>-->
+    <cache type="com.dl.redismybatis.cache.RedisCache"/>
 
     <select id="select" resultType="com.dl.rediscache.entity.Product">
        SELECT * FROM products WHERE id = #{id} LIMIT 1

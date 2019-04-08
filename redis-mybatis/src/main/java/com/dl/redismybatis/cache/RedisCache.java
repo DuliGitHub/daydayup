@@ -50,7 +50,8 @@ public class RedisCache implements Cache {
         RedisTemplate redisTemplate = getRedisTemplate();
         ValueOperations opsForValue = redisTemplate.opsForValue();
         logger.debug("Get cached query result from redis");
-        return opsForValue.get(key);
+        Object o = opsForValue.get(key);
+        return o;
     }
 
     @Override

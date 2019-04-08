@@ -12,9 +12,10 @@ public class CountDownLatch01 {
     private final static int threadCount = 100;
 
     public static void main(String[] args) throws Exception {
+        StringBuffer stringBuffer;
         ExecutorService exec = Executors.newCachedThreadPool();
         CountDownLatch countDownLatch = new CountDownLatch(threadCount);
-        for (int i = 0; i < threadCount; i++) {
+        for (int i = 0; i < 99; i++) {
             final int threadNum = i;
             exec.execute(() -> {
                 try {
@@ -26,8 +27,8 @@ public class CountDownLatch01 {
                 }
             });
         }
-//    countDownLatch.await();
-        countDownLatch.await(120, TimeUnit.MILLISECONDS);
+    countDownLatch.await();
+//        countDownLatch.await(120, TimeUnit.MILLISECONDS);
         System.out.println("结束");
         exec.shutdown();
     }

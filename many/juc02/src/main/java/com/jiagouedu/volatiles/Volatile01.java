@@ -12,6 +12,7 @@ public class Volatile01 {
 
     public void doWork() {
         while (!stop) {
+            System.out.println("循环。。。");
         }
         System.out.println("你能读到我吗...");
     }

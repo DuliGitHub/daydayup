@@ -1,16 +1,4 @@
-package com.jiagouedu.atomic.order;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.atomic.order;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

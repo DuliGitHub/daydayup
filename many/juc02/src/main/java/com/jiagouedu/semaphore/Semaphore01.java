@@ -15,10 +15,10 @@ package com.jiagouedu.semaphore;/*
 import java.util.concurrent.Semaphore;
 
 public class Semaphore01 {
-    private static Semaphore semaphore = new Semaphore(5);
+    private static Semaphore semaphore = new Semaphore(5);// 5 代表只能支持5个人
 
     public static void main(String[] args) {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 20; i++) {//20个人
             final int j = i;
             new Thread(() -> {
                 try {

@@ -1,46 +1,41 @@
 spring:
-  # 数据库配置
-    datasource:
-      url: jdbc:mysql://localhost:3306/product
-      username: root
-      password: root
-      driver-class-name: org.gjt.mm.mysql.Driver
-    redis:
-      # redis数据库索引（默认为0），我们使用索引为3的数据库，避免和其他数据库冲突
-      database: 3
-      # redis服务器地址（默认为localhost）
-      host: localhost
-      # redis端口（默认为6379）
-      port: 6379
-      # redis访问密码（默认为空）
-      password:
-      # redis连接超时时间（单位为毫秒）
-      timeout: 10000
-      # redis连接池配置
-      pool:
-        # 最大可用连接数（默认为8，负数表示无限）
-        max-active: 8
-        # 最大空闲连接数（默认为8，负数表示无限）
-        max-idle: 8
-        # 最小空闲连接数（默认为0，该值只有为正数才有作用）
-        min-idle: 0
-        # 从连接池中获取连接最大等待时间（默认为-1，单位为毫秒，负数表示无限）
-        max-wait: -1
-mybatis:
- type-aliases-package: com.dl.redismybatis.entity
- mapper-locations:
-   - mappers/ProductMapper.xml
+  datasource:
+            type: com.alibaba.druid.pool.DruidDataSource
+            driverClassName: com.mysql.jdbc.Driver
+            druid:
+                url: jdbc:mysql://localhost:3306/seckill?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+                username: root
+                password: 123456
+                initial-size: 10
+                max-active: 200
+                min-idle: 10
+                max-wait: 60000
+                pool-prepared-statements: true
+                max-pool-prepared-statement-per-connection-size: 20
+                time-between-eviction-runs-millis: 60000
+                min-evictable-idle-time-millis: 300000
+                validation-query: SELECT 1 FROM DUAL
+                test-while-idle: true
+                test-on-borrow: false
+                test-on-return: false
+                stat-view-servlet:
+                    enabled: true
+                    url-pattern: /druid/*
+                    #login-username: admin
+                    #login-password: admin
+                filter:
+                    stat:
+                        log-slow-sql: true
+                        slow-sql-millis: 1000
+                        merge-sql: true
+                    wall:
+                        config:
+                            multi-statement-allow: true
+  redis:
+    host: 127.0.0.1
+    database: 0
+    port: 6379
 
-logging:
-  level:
-    com.wooyoo.learning: DEBUG,sql
----
-spring:
- profiles: test
- datasource:
-   url: jdbc:h2:mem:test
-   username: root
-   password: root
-   driver-class-name: org.h2.Driver
-   schema: classpath:schema.sql
-   data: classpath:data.sql
+
+
+
