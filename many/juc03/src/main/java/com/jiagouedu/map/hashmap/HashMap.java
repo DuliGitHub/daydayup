@@ -1,16 +1,4 @@
-package com.jiagouedu.map.hashmap;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.map.hashmap;
 
 import java.util.ArrayList;
 import java.util.List;

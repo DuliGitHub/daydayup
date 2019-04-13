@@ -1,23 +1,12 @@
-package com.jiagouedu.map;/*
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　永无BUG 　┣┓
- * 　　　　┃　　如来保佑　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- */
+package com.jiagouedu.map;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentHashMapExample {
-    public static final Map<String, String> map = new ConcurrentHashMap<>();
+//    public static final Map<String, String> map = new ConcurrentHashMap<>();
+    public static final ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
 
     public static void main(String[] args) throws InterruptedException {
         //线程一
