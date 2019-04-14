@@ -9,6 +9,7 @@ public class AtomicIntegerABAExample {
 
 
     public static void main(String[] args) throws InterruptedException {
+        atomicInt.incrementAndGet();
         Thread intT1 = new Thread(new Runnable() {
             @Override
             public void run() {
