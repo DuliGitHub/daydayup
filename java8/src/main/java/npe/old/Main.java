@@ -36,13 +36,13 @@ public class Main {
         User user2 = new User("kk");
         user1 = Optional.ofNullable(user2).orElse(createUser());
         System.out.println(user1.toString());
-//        user1 = null;
+        user1 = null;
         user1 = Optional.ofNullable(user1).orElseGet(() -> createUser());
         System.out.println(user1.toString());
         //这两个函数的区别：当user值不为null时，orElse函数依然会执行createUser()方法，而orElseGet函数并不会执行createUser()方法
 
         try{
-//            user1 = null;
+            user1 = null;
             Optional.ofNullable(user1).orElseThrow(()->new Exception("用户不存在"));//value值为null时,直接抛一个异常出去
         }catch (Exception e){
             e.printStackTrace();
