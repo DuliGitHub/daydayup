@@ -115,7 +115,7 @@
       <module name="gateway-zuul-aggregation" target="1.8" />
       <module name="gateway-zuul-fallback" target="1.8" />
       <module name="gateway-zuul-filter" target="1.8" />
-      <module name="geektime" target="8" />
+      <module name="geektime" target="1.8" />
       <module name="gradle_main" target="1.8" />
       <module name="gradle_test" target="1.8" />
       <module name="hystrix" target="1.8" />
