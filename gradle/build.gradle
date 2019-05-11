@@ -1,41 +1,67 @@
 
-group 'com.dl.gradle'
+project.group ='com.dl.gradle'
 version '1.0-SNAPSHOT'
 
-apply plugin:'java'
-apply plugin:'war'
 
-sourceCompatibility = 1.8
+
+
+
+
+allprojects {
+    apply plugin:'java'
+    sourceCompatibility = 1.8
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+
+    dependencies {
+        // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+        compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+}
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-def createDir = {
-    path ->
-        File dir = new File(path)
-        if(!dir.exists()){
-            dir.mkdirs()
-        }
-}
+//dependencies {
+//    runtimeCompile group: 'junit', name: 'junit', version: '4.12'
+//}
 
-task makeJavaDir(){  //自定义任务
-    def paths = ["src/main/java","src/main/resources",'src/test/java','src/test/resources']
-    doFirst {
-        paths.forEach(createDir)
-    }
-}
+//def createDir = {
+//    path ->
+//        File dir = new File(path)
+//        if(!dir.exists()){
+//            dir.mkdirs()
+//        }
+//}
 
-task makeWebDir(){
-    dependsOn 'makeJavaDir' //这个任务依赖makeJavaDir任务
-    def paths = ['src/main/webapp','src/test/webapp']
-    doLast {
-        paths.forEach(createDir)
-    }
-}
+//task makeJavaDir(){  //自定义任务
+//    def paths = ["src/main/java","src/main/resources",'src/test/java','src/test/resources']
+//    doFirst {
+//        paths.forEach(createDir)
+//    }
+//}
+//
+//task makeWebDir(){
+//    dependsOn 'makeJavaDir' //这个任务依赖makeJavaDir任务
+//    def paths = ['src/main/webapp','src/test/webapp']
+//    doLast {
+//        paths.forEach(createDir)
+//    }
+//}
 
 

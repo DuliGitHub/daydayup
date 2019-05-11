@@ -1,0 +1,13 @@
+//转移到gradle.properties
+//group 'com.dl.gradle'
+//version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":model")
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

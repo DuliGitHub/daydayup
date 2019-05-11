@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : 'com.dl.gradle' : web-'1.0-SNAPSHOT'.war (exploded)">
+    <output-path>$PROJECT_DIR$/gradle/web/build/libs/exploded/web-'1.0-SNAPSHOT'.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/gradle">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/gradle/web/build/libs/exploded/web-'1.0-SNAPSHOT'.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="web_main/web/Web Gradle : web-'1.0-SNAPSHOT'.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/gradle/web/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="'com.dl.gradle'-model-'1.0-SNAPSHOT'.jar">
+            <element id="module-output" name="model_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/gradle/model/out/production/resources" />
+          </element>
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="model_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="model_main" />
+          <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="model_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="web_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="web_main" />
+          <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="web_main" />
+          <element id="archive" name="'com.dl.gradle'-repository-'1.0-SNAPSHOT'.jar">
+            <element id="module-output" name="repository_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/gradle/repository/out/production/resources" />
+          </element>
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="repository_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="repository_main" />
+          <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="repository_main" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
