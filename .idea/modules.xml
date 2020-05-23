@@ -28,7 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/zuul/gateway-zuul-fallback/gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/zuul/gateway-zuul-fallback/gateway-zuul-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/gateway-zuul-filter/gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/zuul/gateway-zuul-filter/gateway-zuul-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/many/geektime/geektime.iml" filepath="$PROJECT_DIR$/many/geektime/geektime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" group="gradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_main.iml" group="gradle" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_test.iml" group="gradle" />
       <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
@@ -42,9 +42,10 @@
       <module fileurl="file://$PROJECT_DIR$/many/juc04/juc04.iml" filepath="$PROJECT_DIR$/many/juc04/juc04.iml" />
       <module fileurl="file://$PROJECT_DIR$/many/juc05/juc05.iml" filepath="$PROJECT_DIR$/many/juc05/juc05.iml" />
       <module fileurl="file://$PROJECT_DIR$/many/juc06/juc06.iml" filepath="$PROJECT_DIR$/many/juc06/juc06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model.iml" group="model" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_main.iml" group="model" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_test.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/many/proxy/many.iml" filepath="$PROJECT_DIR$/many/proxy/many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model.iml" group="gradle/model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_main.iml" group="gradle/model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_test.iml" group="gradle/model" />
       <module fileurl="file://$PROJECT_DIR$/monster/monster.iml" filepath="$PROJECT_DIR$/monster/monster.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" filepath="$PROJECT_DIR$/monster/ms-cinsumer-order-ribbon/ms-cinsumer-order-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" filepath="$PROJECT_DIR$/monster/ms-consumer-order-feign/ms-consumer-order-feign.iml" />
@@ -69,13 +70,12 @@
       <module fileurl="file://$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" filepath="$PROJECT_DIR$/zuul/provider-user/provider-user (2) (com.zuul).iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/provider-user-trace/provider-user-trace.iml" filepath="$PROJECT_DIR$/sleuth/provider-user-trace/provider-user-trace.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/provider-user-trace-zipkin/provider-user-trace-zipkin.iml" filepath="$PROJECT_DIR$/sleuth/provider-user-trace-zipkin/provider-user-trace-zipkin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/many/proxy/proxy.iml" filepath="$PROJECT_DIR$/many/proxy/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/monster/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/monster/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/redis-cache/redis-cache.iml" filepath="$PROJECT_DIR$/cache/redis-cache/redis-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-mybatis/redis-mybatis.iml" filepath="$PROJECT_DIR$/redis-mybatis/redis-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository.iml" group="repository" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" group="repository" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" group="repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository.iml" group="gradle/repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" group="gradle/repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" group="gradle/repository" />
       <module fileurl="file://$PROJECT_DIR$/many/saga.iml" filepath="$PROJECT_DIR$/many/saga.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/sleuth.iml" filepath="$PROJECT_DIR$/sleuth/sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/zuul/spring-boot-admin/spring-boot-admin.iml" />
@@ -84,9 +84,9 @@
       <module fileurl="file://$PROJECT_DIR$/sleuth/trace-zipkin-server-elasticsearch/trace-zipkin-server-elasticsearch.iml" filepath="$PROJECT_DIR$/sleuth/trace-zipkin-server-elasticsearch/trace-zipkin-server-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/transmission/transmission.iml" filepath="$PROJECT_DIR$/netty/transmission/transmission.iml" />
       <module fileurl="file://$PROJECT_DIR$/validate-test/validate-test.iml" filepath="$PROJECT_DIR$/validate-test/validate-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web.iml" group="web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web.iml" group="gradle/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="gradle/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="gradle/web" />
       <module fileurl="file://$PROJECT_DIR$/y-aop/y-aop.iml" filepath="$PROJECT_DIR$/y-aop/y-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>

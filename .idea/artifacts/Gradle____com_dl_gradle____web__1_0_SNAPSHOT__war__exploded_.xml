@@ -14,26 +14,26 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="web_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/gradle/web/out/production/resources" />
+          <element id="dir-copy" path="$PROJECT_DIR$/gradle/web/build/resources/main" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="'com.dl.gradle'-repository-'1.0-SNAPSHOT'.jar">
+            <element id="module-output" name="repository_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/gradle/repository/build/resources/main" />
+          </element>
           <element id="archive" name="'com.dl.gradle'-model-'1.0-SNAPSHOT'.jar">
             <element id="module-output" name="model_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/gradle/model/out/production/resources" />
+            <element id="dir-copy" path="$PROJECT_DIR$/gradle/model/build/resources/main" />
           </element>
           <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="model_main" />
           <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="model_main" />
           <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="model_main" />
-          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="web_main" />
-          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="web_main" />
-          <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="web_main" />
-          <element id="archive" name="'com.dl.gradle'-repository-'1.0-SNAPSHOT'.jar">
-            <element id="module-output" name="repository_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/gradle/repository/out/production/resources" />
-          </element>
           <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="repository_main" />
           <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="repository_main" />
           <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="repository_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-classic:1.2.3" module-name="web_main" />
+          <element id="library" level="module" name="Gradle: ch.qos.logback:logback-core:1.2.3" module-name="web_main" />
+          <element id="library" level="module" name="Gradle: org.slf4j:slf4j-api:1.7.25" module-name="web_main" />
         </element>
       </element>
     </root>

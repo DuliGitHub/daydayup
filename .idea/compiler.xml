@@ -7,86 +7,86 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="06-ms-eureka-server" />
-        <module name="06-ms-provider-user" />
         <module name="cache" />
-        <module name="config" />
-        <module name="config-client" />
-        <module name="config-client-authenticating" />
-        <module name="config-client-eureka" />
-        <module name="config-client-refresh" />
-        <module name="config-client-refresh-cloud-bus" />
-        <module name="config-server" />
         <module name="config-server-authenticating" />
-        <module name="config-server-encryption" />
-        <module name="config-server-eureka" />
+        <module name="ms-eureka-server (1) (com.dl.cloud)" />
         <module name="config-server-refresh-cloud-bus" />
-        <module name="consumer-order-feign-hystrix-fallback" />
-        <module name="consumer-order-feign-hystrix-fallback-stream" />
-        <module name="consumer-order-ribbon" />
-        <module name="consumer-order-ribbon-hystrix-fallback" />
-        <module name="consumer-order-trace" />
-        <module name="consumer-order-trace-zipkin" />
-        <module name="cookie" />
-        <module name="cookie-demo1" />
-        <module name="eureka-server" />
-        <module name="eureka-server (1) (com.dl)" />
-        <module name="eureka-server (2) (com.zuul)" />
-        <module name="eureka-server-ha" />
-        <module name="gate-zuul" />
-        <module name="gateway-zuul-aggregation" />
-        <module name="gateway-zuul-fallback" />
-        <module name="gateway-zuul-filter" />
-        <module name="hystrix" />
-        <module name="hystrix-dashboard" />
-        <module name="hystrix-turbine" />
-        <module name="hystrix2" />
-        <module name="java8" />
+        <module name="config-client-authenticating" />
+        <module name="sleuth" />
         <module name="juc-01" />
+        <module name="consumer-order-ribbon-hystrix-fallback" />
+        <module name="config-client-refresh-cloud-bus" />
+        <module name="ninja" />
+        <module name="java8" />
+        <module name="ms-eureka-server" />
+        <module name="juc06" />
+        <module name="spring-boot-admin" />
+        <module name="consumer-order-trace" />
+        <module name="redis-cache" />
         <module name="juc02" />
+        <module name="eureka-server-ha" />
+        <module name="cookie-demo1" />
+        <module name="eureka-server (2) (com.zuul)" />
+        <module name="y-aop" />
+        <module name="nettyclient" />
+        <module name="ms-cinsumer-order-ribbon" />
+        <module name="zuul-provider-user" />
+        <module name="provider-user (2) (com.zuul)" />
+        <module name="06-ms-provider-user" />
+        <module name="ms-provider-user" />
+        <module name="provider-user (1) (com.dl)" />
+        <module name="ms-consumer-order-feign" />
+        <module name="provider-user-trace-zipkin" />
+        <module name="06-ms-eureka-server" />
+        <module name="ms-consumer-order-ribbon-without-eureka" />
+        <module name="trace-zipkin-server" />
+        <module name="ms-consumer-order-ribbon-hystrix-thread-isolation" />
+        <module name="config-server-encryption" />
+        <module name="trace-zipkin-server-elasticsearch" />
+        <module name="hystrix-dashboard" />
         <module name="juc03" />
+        <module name="provider-user-trace" />
+        <module name="monster" />
+        <module name="hystrix-turbine" />
+        <module name="validate-test" />
+        <module name="consumer-order-trace-zipkin" />
+        <module name="ms-provider-user (1) (com.dl.cloud)" />
+        <module name="cookie" />
+        <module name="ms-consumer-order-ribbon-hystrix-fallback" />
+        <module name="ms-consumer-order-ribbon-hystrix-customizing" />
+        <module name="consumer-order-feign-hystrix-fallback" />
+        <module name="config-server-eureka" />
+        <module name="gateway-zuul-fallback" />
+        <module name="ms-consumer-order-ribbon-customizing" />
+        <module name="ms-provider-user (2) (com.dl)" />
+        <module name="config-server" />
+        <module name="consumer-order-feign-hystrix-fallback-stream" />
+        <module name="hystrix2" />
+        <module name="gate-zuul" />
+        <module name="ms-provider-user-api" />
+        <module name="gateway-zuul-aggregation" />
+        <module name="rabbitmq" />
+        <module name="eureka-server (1) (com.dl)" />
+        <module name="config-client" />
+        <module name="zuul-eureka-server" />
+        <module name="transmission" />
+        <module name="config-client-eureka" />
+        <module name="config" />
         <module name="juc04" />
         <module name="juc05" />
-        <module name="juc06" />
-        <module name="monster" />
-        <module name="ms-cinsumer-order-ribbon" />
-        <module name="ms-consumer-order-feign" />
-        <module name="ms-consumer-order-ribbon-customizing" />
-        <module name="ms-consumer-order-ribbon-customizing-properties" />
-        <module name="ms-consumer-order-ribbon-hystrix-customizing" />
-        <module name="ms-consumer-order-ribbon-hystrix-fallback" />
-        <module name="ms-consumer-order-ribbon-hystrix-fusing" />
-        <module name="ms-consumer-order-ribbon-hystrix-thread-isolation" />
-        <module name="ms-consumer-order-ribbon-without-eureka" />
-        <module name="ms-eureka-server" />
-        <module name="ms-eureka-server (1) (com.dl.cloud)" />
-        <module name="ms-eureka-server (2) (com.dl)" />
-        <module name="ms-provider-user" />
-        <module name="ms-provider-user (1) (com.dl.cloud)" />
-        <module name="ms-provider-user (2) (com.dl)" />
-        <module name="ms-provider-user-api" />
+        <module name="many" />
         <module name="netty_" />
-        <module name="nettyclient" />
-        <module name="ninja" />
-        <module name="provider-user" />
-        <module name="provider-user (1) (com.dl)" />
-        <module name="provider-user (2) (com.zuul)" />
-        <module name="provider-user-trace" />
-        <module name="provider-user-trace-zipkin" />
-        <module name="proxy" />
-        <module name="rabbitmq" />
-        <module name="redis-cache" />
         <module name="redis-mybatis" />
-        <module name="sleuth" />
-        <module name="spring-boot-admin" />
-        <module name="trace-zipkin-server" />
-        <module name="trace-zipkin-server-elasticsearch" />
-        <module name="transmission" />
-        <module name="validate-test" />
-        <module name="y-aop" />
+        <module name="config-client-refresh" />
+        <module name="provider-user" />
+        <module name="consumer-order-ribbon" />
+        <module name="ms-eureka-server (2) (com.dl)" />
+        <module name="ms-consumer-order-ribbon-hystrix-fusing" />
+        <module name="hystrix" />
         <module name="zuul" />
-        <module name="zuul-eureka-server" />
-        <module name="zuul-provider-user" />
+        <module name="gateway-zuul-filter" />
+        <module name="eureka-server" />
+        <module name="ms-consumer-order-ribbon-customizing-properties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -129,6 +129,7 @@
       <module name="juc04" target="1.7" />
       <module name="juc05" target="1.7" />
       <module name="juc06" target="1.8" />
+      <module name="many" target="1.5" />
       <module name="model_main" target="1.8" />
       <module name="model_test" target="1.8" />
       <module name="monster" target="1.8" />
@@ -173,5 +174,10 @@
       <module name="y-aop" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="validate-test" options="-parameters" />
+    </option>
   </component>
 </project>

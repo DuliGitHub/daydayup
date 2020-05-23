@@ -4,13 +4,13 @@
     <facet type="web" name="Web Gradle : web-'1.0-SNAPSHOT'.war">
       <configuration>
         <webroots>
-          <root url="file://D:\rainbow\gradle\web\src\main\webapp" relative="/" />
+          <root url="file://D:\mygithub\Rainbow\gradle\web\src\main\webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../gradle/web/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../gradle/web/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../gradle/web/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../gradle/web/src/main/java" isTestSource="false" />
