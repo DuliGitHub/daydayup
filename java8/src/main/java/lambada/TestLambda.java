@@ -64,26 +64,32 @@ public class TestLambda {
             }
         };
 
-        TreeSet<Integer> ts = new TreeSet<>(com);
+        TreeSet<Integer> ts = new TreeSet<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return Integer.compare(o1,o2);
+            }
+        });
     }
 
     @Test
     public void test2(){
         Comparator<Integer> com = (x,y) -> Integer.compare(x,y);
-        TreeSet<Integer> ts = new TreeSet<>(com);
+//        TreeSet<Integer> ts = new TreeSet<>(com);
+        TreeSet<Integer> ts = new TreeSet<>((x,y)->Integer.compare(x,y));
     }
 
     //有参数 ，无返回值,我参数，无返回值，有一个参数，无返回值
     @Test
     public void test3(){
         Consumer<String> con = (x) -> System.out.println(x);
-        con.accept("hello lambda");
+        con.accept("hello lambda");//输出：hello lambda
 
         Runnable r = ()-> System.out.println("无参数，无返回值");
         r.run();
 
         Comparator<Integer> com = (x,y)->{
-            System.out.println("多个语句，加大括号");
+            System.out.println("多个语句，加大括号{}");
             return Integer.compare(x,y);
         };
         int compare = com.compare(4, 5);

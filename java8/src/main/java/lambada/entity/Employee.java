@@ -18,4 +18,22 @@ public class Employee {
     private String name;
     private int age;
     private int salary;
+    private Status status;
+
+    public Employee(int id) {
+        this.id = id;
+    }
+
+    public Employee(int id, String name, int age, int salary) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public enum Status{
+        FREE,
+        BUSY,
+        VOCATION;
+    }
 }
